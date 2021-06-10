@@ -12,7 +12,7 @@
   "shieldRadius": 159.5,
   "viewOffset": 0,
   "builtInMods": [
-    "automated",
+    "galaxytigers_automated",
     "advancedcore",
     "galaxytigers_automated_machinery"
   ],

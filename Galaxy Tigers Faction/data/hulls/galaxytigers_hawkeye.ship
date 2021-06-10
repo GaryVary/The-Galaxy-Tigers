@@ -12,7 +12,7 @@
   "shieldRadius": 86.5,
   "viewOffset": 0,
   "builtInMods": [
-    "automated",
+    "galaxytigers_automated",
     "repair_gantry",
     "surveying_equipment",
     "galaxytigers_automated_machinery"

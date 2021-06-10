@@ -12,7 +12,7 @@
   "shieldRadius": 50,
   "viewOffset": 0,
   "builtInMods": [
-    "automated",
+    "galaxytigers_automated",
     "pointdefenseai",
     "galaxytigers_automated_machinery"
   ],

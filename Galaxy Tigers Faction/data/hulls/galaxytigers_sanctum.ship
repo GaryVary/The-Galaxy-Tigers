@@ -12,7 +12,7 @@
   "shieldRadius": 240,
   "viewOffset": 0,
   "builtInMods": [
-    "automated",
+    "galaxytigers_automated",
     "galaxytigers_automated_carrier"
   ],
   "builtInWeapons": {
