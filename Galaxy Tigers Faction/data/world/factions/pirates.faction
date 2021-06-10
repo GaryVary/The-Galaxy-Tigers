@@ -1,0 +1,24 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"hulls":{
+			#"galaxytigers_baguette_p":0.05, #a good ole junk capital
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"hulls":[
+			"galaxytigers_baguette_p",
+		],
+	},
+	"knownShips":{
+		"hulls":[
+			"galaxytigers_baguette_p",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"hulls":[
+		],
+	},
+},

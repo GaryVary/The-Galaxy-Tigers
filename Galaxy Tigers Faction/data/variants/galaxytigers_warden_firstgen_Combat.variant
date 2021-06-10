@@ -1,0 +1,29 @@
+{
+  "displayName": "Combat",
+  "fluxCapacitors": 3,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "galaxytigers_warden_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_warden_firstgen_Combat",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightdualac"
+      }
+    }
+  ],
+  "wings": []
+}

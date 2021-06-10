@@ -1,0 +1,56 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 5,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "galaxytigers_taurus",
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_taurus_Support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "galaxytigers_claw_mirv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "galaxytigers_wallbrick_cannon",
+        "WS0005": "galaxytigers_wallbrick_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0004": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "galaxytigers_lighter_needler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabot"
+      }
+    }
+  ],
+  "wings": [
+    "gt_arrowtip_wing"
+  ]
+}

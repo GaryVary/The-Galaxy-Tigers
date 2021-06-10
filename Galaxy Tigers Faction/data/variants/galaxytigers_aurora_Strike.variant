@@ -1,0 +1,61 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 13,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "galaxytigers_aurora",
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "galaxytigers_aurora_Strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 010": "atropos",
+        "WS 011": "atropos",
+        "WS 012": "atropos",
+        "WS 013": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "heavyburst",
+        "WS 006": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "ioncannon",
+        "WS 004": "ioncannon",
+        "WS 005": "ioncannon",
+        "WS 007": "pulselaser",
+        "WS 008": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "heavyblaster"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,14 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "galaxytigers_sanctum_spin_shield",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_sanctum_spin_shield_Standard",
+  "weaponGroups": [],
+  "wings": []
+}

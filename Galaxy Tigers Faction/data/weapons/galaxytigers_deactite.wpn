@@ -1,0 +1,51 @@
+{
+  "animationType": "GLOW",
+  "barrelMode": "LINKED",
+  "fireSoundOne": "gt_deactite_fire",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    -10.5,
+    10.5,
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/gt_deactite/gt_deactite_hardpoint_base_glow.png",
+  "hardpointOffsets": [
+    19.5,
+    -1.5,
+    19.5,
+    2.5,
+    19.5,
+    0.5
+  ],
+  "hardpointSprite": "graphics/weapons/gt_deactite/gt_deactite_hardpoint_base.png",
+  "id": "galaxytigers_deactite",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "galaxytigers_deactite_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    -10.5,
+    10.5,
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/gt_deactite/gt_deactite_turret_base_glow.png",
+  "turretOffsets": [
+    11.5,
+    -1.5,
+    11.5,
+    2.5,
+    11.5,
+    0.5
+  ],
+  "turretSprite": "graphics/weapons/gt_deactite/gt_deactite_turret_base.png",
+  "type": "ENERGY"
+}

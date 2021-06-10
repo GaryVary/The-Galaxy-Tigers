@@ -1,0 +1,36 @@
+{
+  "variantId": "galaxytigers_picket_wing_Brawling",
+  "hullId": "galaxytigers_picket_wing",
+  "displayName": "Brawling Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 6,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "galaxytigers_wallbrick_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "lightmortar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightdualac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

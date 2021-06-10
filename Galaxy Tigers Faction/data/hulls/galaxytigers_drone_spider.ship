@@ -1,0 +1,83 @@
+{
+  "bounds": [],
+  "builtInWings": [],
+  "center": [
+    16.5,
+    14.5
+  ],
+  "collisionRadius": 23,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 7,
+      "location": [
+        -12.5,
+        0.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 5,
+      "location": [
+        -11.5,
+        -3
+      ],
+      "style": "HIGH_TECH",
+      "width": 3
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 5,
+      "location": [
+        -11.5,
+        4
+      ],
+      "style": "HIGH_TECH",
+      "width": 3
+    }
+  ],
+  "height": 30,
+  "hullId": "galaxytigers_drone_spider",
+  "hullName": "Spider Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 22,
+  "spriteName": "graphics/ships/drones/galaxytigers_drone_spider.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0001",
+      "locations": [
+        12,
+        8
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        12,
+        -7
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 32
+}

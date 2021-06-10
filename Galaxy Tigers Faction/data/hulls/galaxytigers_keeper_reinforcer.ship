@@ -1,0 +1,111 @@
+{
+  "bounds": [
+    -66,
+    12.5,
+    -57,
+    55,
+    -6,
+    66,
+    18,
+    62.5,
+    50,
+    26,
+    76,
+    -27,
+    64,
+    -38.5,
+    21,
+    -46,
+    -60,
+    -36.5
+  ],
+  "builtInMods": [
+    "automated",
+    "always_detaches",
+    "galaxytigers_deactivated_weapons"
+  ],
+  "builtInWeapons": {
+    "WS0001": "dualflak"
+  },
+  "center": [
+    67,
+    67
+  ],
+  "collisionRadius": 87,
+  "engineSlots": [],
+  "height": 144,
+  "hullId": "galaxytigers_keeper_reinforcer",
+  "hullName": "Keeper (GT)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 87,
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_keeper.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 001",
+      "locations": [
+        50,
+        11
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 22,
+      "arc": 180,
+      "id": "WS 002",
+      "locations": [
+        16,
+        4
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 190,
+      "id": "WS 003",
+      "locations": [
+        -24.5,
+        55.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 190,
+      "id": "WS 004",
+      "locations": [
+        -17.5,
+        -39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 130,
+      "id": "WS0001",
+      "locations": [
+        27,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 115
+}

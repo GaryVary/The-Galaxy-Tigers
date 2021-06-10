@@ -1,0 +1,63 @@
+{
+  "displayName": "Offensive Support",
+  "fluxCapacitors": 20,
+  "fluxVents": 23,
+  "goalVariant": true,
+  "hullId": "galaxytigers_fortress_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_fortress_firstgen_Offensivesupport",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser",
+        "WS0007": "pdlaser",
+        "WS0015": "taclaser",
+        "WS0016": "taclaser",
+        "WS0017": "taclaser",
+        "WS0018": "taclaser",
+        "WS0019": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "hurricane",
+        "WS0013": "atropos",
+        "WS0014": "atropos"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sabotpod",
+        "WS0012": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam",
+        "WS0005": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ionbeam",
+        "WS0009": "ionbeam",
+        "WS0010": "ionbeam"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,17 @@
+{
+	"id":"galaxytigers_meteor_strike_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":150.0,
+	"width":8,
+	"hitGlowRadius":25,
+	"fadeTime":0.175,
+	"fringeColor":[77,213,190,191],
+	"coreColor":[77,213,190,128],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png"
+}
+

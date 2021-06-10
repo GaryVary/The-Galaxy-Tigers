@@ -1,0 +1,104 @@
+{
+  "displayName": "Delicious",
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "galaxytigers_true_baguette",
+  "hullMods": [
+    "turretgyros",
+    "solar_shielding",
+    "missleracks",
+    "insulatedengine",
+    "fluxbreakers",
+    "eccm",
+    "ecm",
+    "dedicated_targeting_core",
+    "autorepair",
+    "chassis_storage"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_true_baguette_Boss",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hephag",
+        "WS0006": "hephag",
+        "WS0008": "hephag",
+        "WS0009": "hephag",
+        "WS0011": "hephag",
+        "WS0013": "hephag",
+        "WS0014": "hephag",
+        "WS0016": "hephag",
+        "WS0018": "hephag",
+        "WS0019": "hephag",
+        "WS0021": "hephag",
+        "WS0023": "hephag",
+        "WS0024": "multineedler",
+        "WS0025": "multineedler",
+        "WS0026": "multineedler",
+        "WS0027": "multineedler",
+        "WS0028": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hurricane",
+        "WS0002": "hurricane",
+        "WS0003": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gauss",
+        "WS0007": "gauss",
+        "WS0010": "gauss",
+        "WS0012": "gauss",
+        "WS0015": "gauss",
+        "WS0017": "gauss",
+        "WS0020": "gauss",
+        "WS0022": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0030": "heavymauler",
+        "WS0031": "heavymauler",
+        "WS0034": "heavymauler",
+        "WS0035": "heavymauler",
+        "WS0039": "heavymauler",
+        "WS0040": "heavymauler",
+        "WS0041": "heavymauler",
+        "WS0042": "heavymauler",
+        "WS0045": "heavymauler",
+        "WS0046": "heavymauler",
+        "WS0047": "heavymauler",
+        "WS0048": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0029": "shredder",
+        "WS0032": "shredder",
+        "WS0033": "shredder",
+        "WS0036": "shredder",
+        "WS0037": "shredder",
+        "WS0038": "shredder",
+        "WS0043": "shredder",
+        "WS0044": "shredder"
+      }
+    }
+  ],
+  "wings": []
+}

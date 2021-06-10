@@ -1,0 +1,31 @@
+{
+  "variantId": "galaxytigers_defender_system_Strike",
+  "hullId": "galaxytigers_defender_system",
+  "displayName": "Strike Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 4,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "railgun",
+        "WS 004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "irpulse",
+        "WS 003": "irpulse"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

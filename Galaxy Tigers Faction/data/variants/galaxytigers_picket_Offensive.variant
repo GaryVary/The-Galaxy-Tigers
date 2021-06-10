@@ -1,0 +1,24 @@
+{
+  "displayName": "Offensive",
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "galaxytigers_picket",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_picket_Offensive",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightag",
+        "WS 002": "lightag",
+        "WS 003": "lightag"
+      }
+    }
+  ],
+  "wings": []
+}

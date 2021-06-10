@@ -1,0 +1,14 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "galaxytigers_ethrom_hammer",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_ethrom_hammer_Standard",
+  "weaponGroups": [],
+  "wings": []
+}

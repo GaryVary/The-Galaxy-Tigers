@@ -1,0 +1,63 @@
+{
+  "displayName": "Offensive",
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "galaxytigers_fortress_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_fortress_firstgen_Offensive",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "mininglaser",
+        "WS0019": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "annihilatorpod",
+        "WS0012": "annihilatorpod",
+        "WS0013": "harpoon",
+        "WS0014": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "squall",
+        "WS0009": "ionbeam",
+        "WS0010": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam",
+        "WS0003": "heavyblaster",
+        "WS0004": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "autopulse",
+        "WS0015": "pdburst",
+        "WS0016": "pdburst",
+        "WS0017": "pdburst",
+        "WS0018": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

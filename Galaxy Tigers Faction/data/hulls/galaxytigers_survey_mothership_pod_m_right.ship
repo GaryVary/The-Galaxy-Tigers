@@ -1,0 +1,46 @@
+{
+  "hullName": "Gun Pod, Medium",
+  "hullId": "galaxytigers_survey_mothership_pod_m_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelict/derelict_mothership_pod_m_right.png",
+  "style": "LOW_TECH",
+  "height": 42,
+  "width": 48,
+  "center": [26, 23],
+  "collisionRadius": 31,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 019",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [-4, -6]
+    },
+    {
+      "id": "WS 020",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -50,
+      "locations": [5, 16]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    17, 17,
+    8, -16,
+    -19, -19,
+    -16, 7,
+    0, 24
+  ]
+}

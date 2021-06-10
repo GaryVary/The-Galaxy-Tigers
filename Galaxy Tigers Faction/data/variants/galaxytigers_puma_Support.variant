@@ -1,0 +1,51 @@
+{
+  "variantId": "galaxytigers_puma_Support",
+  "hullId": "galaxytigers_puma",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "MISSILELAUNCHER": "galaxytigers_claw_mirv_builtin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "galaxytigers_deactite",
+        "WS0002": "galaxytigers_deactite"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lrpdlaser",
+        "WS0004": "lrpdlaser",
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gt_spider_drone_wing",
+    "gt_spider_drone_wing"
+  ]
+}

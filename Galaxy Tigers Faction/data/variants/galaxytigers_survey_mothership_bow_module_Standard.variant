@@ -1,0 +1,25 @@
+{
+  "variantId": "galaxytigers_survey_mothership_bow_module_Standard",
+  "hullId": "galaxytigers_survey_mothership_bow_module",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "railgun",
+        "WS 008": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

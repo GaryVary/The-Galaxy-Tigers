@@ -1,0 +1,165 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"difficultyString":"normal",
+    
+    "rebelFleetSuffix":"Claw breakers",
+	
+	"invasionSupportFleetName":"Support Forces",
+    "responseFleetName":"Leaping Tigers",
+    "defenceFleetName":"Attentive Eyes",
+    
+    "marketSpawnWeight":1,
+
+	"factionsLiked":[
+    		"tritachyon",
+    		"independent",
+    		"persean",
+			"blackrock_driveyards",
+			"br_consortium",
+			"dassault_mikoyan",
+			"6eme_bureau",
+	], # String array
+    "factionsDisliked":[
+    		"luddic_path",
+    		"luddic_church",
+    		"hegemony",
+			"blade_breakers",
+			"diableavionics",
+			"pirates",
+	], # String array
+    "startRelationships":{ 
+		"tritachyon":0.7, 
+		"persean":0.2,
+		"independent":0.2,
+		"hegemony":-0.5,
+		"luddic_path":-0.7,
+		"luddic_church":-0.1,
+		"pirates":-0.7,
+		"blackrock_driveyards":0.1,
+		"br_consortium":0.1,
+		"dassault_mikoyan":0.2,
+		"6eme_bureau":0.2,
+		"blade_breakers":-0.7,
+		"the_deserter":-0.1,
+		"diableavionics":-0.5,
+		"galaxytigers_drone_guard":1,
+	},
+	"maxRelationships":{ 
+		"tritachyon":1,
+		"persean":1,
+		"independent":1,
+		"blackrock_driveyards":1,
+		"br_consortium":1,
+		"dassault_mikoyan":1,
+		"6eme_bureau":1,
+	},
+	"diplomacyPositiveChance":{ 
+		"hegemony":0.1,
+		"tritachyon":1,
+		"persean":0.9,
+		"luddic_church":0.1,
+		"independent":0.8,
+		"dassault_mikoyan":1,
+		"blackrock_driveyards":0.7,
+		"diableavionics":0.05,
+	},
+    "diplomacyNegativeChance":{ 
+		"hegemony":0.9,
+		"pirates":1,
+		"luddic_path":1,
+		"luddic_church":0.9,
+		"tritachyon":0.05,
+		"persean":0.1,
+		"independent":0.05,
+		"diableavionics":0.95,
+	},
+    
+    "alignments":{
+        "technocratic":1,
+		"corporate":0.7,
+        "militarist":0,
+        "diplomatic":0.5,
+        "ideological":-0.6,
+    },
+	"morality":"neutral",
+	"diplomacyTraits":["neutralist", "helps_allies", "pacifist", "likes_ai"],
+	
+	"factionIdForHqResponse":"galaxytigers_drone_guard",
+	"specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+	
+	"vengeanceLevelNames":["Vengeance", "Hunting", "Elimination"],
+    "vengeanceFleetNames":["Vengeance", "Hunting", "Elimination"],
+    "vengeanceFleetNamesSingle":["a Vengeance Group", "a Hunting Pack", "an Elimination Party"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "startShipsSolo":[
+		["galaxytigers_cerbherd_Polyvalent"],
+		["galaxytigers_rana_Standard"],
+		["galaxytigers_smolslaught_Polyvalent"],
+	],
+    "startShipsCombatSmall":[
+		["galaxytigers_bandit_combat_Explosive", "galaxytigers_berserker_HeavySupport", "galaxytigers_defender_Scout"],
+		["galaxytigers_bandit_combat_AntiShield", "galaxytigers_defender_Strike", "galaxytigers_warden_Battle", "galaxytigers_picket_Offensive"],
+		["galaxytigers_bastillon_Polyvalent", "galaxytigers_bandit_combat_Hammering", "galaxytigers_cerbherd_Support"],
+		["galaxytigers_keeper_Support", "galaxytigers_warden_Brawling", "galaxytigers_cerbherd_Strike", "galaxytigers_rana_Standard"],
+    ],
+    "startShipsTradeSmall":[
+		["buffalo_Standard", "galaxytigers_sentry_Support", "galaxytigers_defender_Assault", "galaxytigers_rana_Standard"],
+		["buffalo_Standard", "galaxytigers_cerbherd_Polyvalent", "galaxytigers_picket_Strike", "galaxytigers_sentry_Assault", "galaxytigers_sentry_Assault"],
+	],
+    "startShipsCombatLarge":[
+		["galaxytigers_aurora_Assault", "galaxytigers_bastillon_Polyvalent", "galaxytigers_keeper_Support"],
+		["galaxytigers_kandorig_Support", "galaxytigers_berserker_Polyvalent", "galaxytigers_bandit_combat_Explosive"],
+		["galaxytigers_aurora_Strike", "galaxytigers_kandorig_Support", "galaxytigers_defender_Scout"],
+		["galaxytigers_rampart_Polyvalent", "galaxytigers_bastillon_Polyvalent", "galaxytigers_rana_Strike", "galaxytigers_rana_Strike"],
+    ],
+    "startShipsTradeLarge":[
+		["galaxytigers_aurora_Escort", "colossus_Standard", "galaxytigers_bastillon_Polyvalent", "galaxytigers_picket_Strike", "galaxytigers_picket_Scout"],
+		["galaxytigers_fortress_Offensivesupport", "colossus_Standard", "galaxytigers_rampart_Polyvalent", "galaxytigers_smolslaught_Polyvalent"],
+	],
+    "startShipsCarrierSmall":[
+		["galaxytigers_keeper_Support", "galaxytigers_bandit_mining_Battle", "galaxytigers_bastillon_Polyvalent", "galaxytigers_cerbherd_Polyvalent"],
+		["galaxytigers_keeper_Support", "galaxytigers_keeper_Support", "galaxytigers_cerbherd_Strike", "galaxytigers_cerbherd_Polyvalent", "galaxytigers_defender_Strike"],
+	],
+    "startShipsCarrierLarge":[
+		["galaxytigers_puma_Polyvalent", "galaxytigers_keeper_Support", "galaxytigers_keeper_Support", "galaxytigers_bandit_combat_AntiShield", "galaxytigers_rana_Standard", "galaxytigers_cerbherd_Polyvalent"],
+		["galaxytigers_kandorig_Support", "galaxytigers_puma_Polyvalent", "galaxytigers_keeper_Support", "galaxytigers_bandit_combat_Hammering", "galaxytigers_rana_Standard"],
+		["galaxytigers_ethrom_Standard", "galaxytigers_keeper_Support", "galaxytigers_keeper_Support"],
+	],
+	"startShipsSuper":[
+		["galaxytigers_atlas_fortress_Balanced"],
+		["galaxytigers_conquest_Attack"],
+		["galaxytigers_ethrom_Standard"],
+		["galaxytigers_reinforcer_Standard"],
+	],
+    "startShipsGrandFleet":[
+		["galaxytigers_conquest_Front", "galaxytigers_puma_Support", "galaxytigers_rampart_Support", "galaxytigers_aurora_Escort", "galaxytigers_berserker_HeavySupport", "galaxytigers_bastillon_CloseFight", "galaxytigers_bandit_combat_Explosive", "galaxytigers_bandit_combat_Explosive", "galaxytigers_warden_AntiShield", "galaxytigers_warden_AntiShield", "galaxytigers_picket_Strike"],
+		["galaxytigers_ethrom_Standard", "galaxytigers_reinforcer_Standard", "galaxytigers_kandorig_Support", "galaxytigers_puma_Support", "galaxytigers_aurora_Balanced", "galaxytigers_bastillon_Polyvalent", "galaxytigers_berserker_Polyvalent", "galaxytigers_cerbherd_Polyvalent", "galaxytigers_cerbherd_Polyvalent", "galaxytigers_rana_Strike"],
+		["galaxytigers_atlas_fortress_Balanced", "galaxytigers_ethrom_Standard", "galaxytigers_kandorig_Support", "galaxytigers_fortress_Offensive", "galaxytigers_fortress_Offensive", "galaxytigers_rampart_Polyvalent", "galaxytigers_bastillon_Polyvalent", "galaxytigers_berserker_Support", "galaxytigers_sentry_Strike", "galaxytigers_warden_Brawling"],
+	],
+    
+    "startSpecialItems":[
+        [["galaxytigers_bp", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":1.5},
+    ],
+    
+	"industrySeeds":[
+        {"id":"orbitalworks", "mult":0.2},
+		{"id":"heavyindustry", "mult":0.9},
+		#{"id":"highcommand", "mult":2},
+    ],
+	
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":2},
+        {"id":"nanoforge_pristine", "count":0.3},
+		{"id":"aiCore_any", "mult":1.5},
+    ],
+}

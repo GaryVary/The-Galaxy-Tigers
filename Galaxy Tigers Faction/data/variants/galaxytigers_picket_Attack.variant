@@ -1,0 +1,30 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 5,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "galaxytigers_picket",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_picket_Attack",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lrpdlaser",
+        "WS 003": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightneedler"
+      }
+    }
+  ],
+  "wings": []
+}

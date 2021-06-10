@@ -1,0 +1,51 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "LINKED",
+  "fireSoundTwo": "hephaestus_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/gt_wallbrick_gun/wallbrick_gun_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    18,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/gt_wallbrick_gun/wallbrick_gun_hardpoint_base.png",
+  "id": "galaxytigers_wallbrick_gun",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "spread": 20
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "galaxytigers_wallbrick_gun_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/gt_wallbrick_gun/wallbrick_gun_turret_recoil.png",
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretSprite": "graphics/weapons/gt_wallbrick_gun/wallbrick_gun_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 3
+}

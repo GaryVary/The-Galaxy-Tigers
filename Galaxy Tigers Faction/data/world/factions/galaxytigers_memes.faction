@@ -1,0 +1,174 @@
+{
+	id:"galaxytigers_memes",
+	"color":[255,132,56,127],	
+	"baseUIColor":[255,132,56,255],	
+	"darkUIColor":[31,94,112,175],
+	"gridUIColor":[255,132,56,75],
+	
+	"displayName":"Some stuff",
+	"displayNameWithArticle":"some stuff",
+	"displayNameLong":"Some stuff",
+	"displayNameLongWithArticle":"some stuff",
+	"logo":"graphics/factions/gtflag.png",
+	"crest":"graphics/factions/gtflagmini.png",
+	"shipNamePrefix":"GTM",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"JAPAN":1,
+		"EGYPTIAN":1,
+		"CELTIC":2,
+		"BEASTS":3,
+		"AZTEC":1,
+		"GREEK":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"old english":1,
+		"world":1,
+		"future":1,
+		"myth":2,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"buffalo2":0,
+			"gremlin":0, # No gremlins, they're too weak
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["galaxytigers_memes"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["galaxytigers_memes"],
+		"hulls":[
+			"galaxytigers_true_baguette"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["galaxytigers_memes"],
+		"hulls":[
+			"galaxytigers_true_baguette"
+		],
+	},
+	"knownFighters":{
+		"tags":["galaxytigers_memes"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":["galaxytigers_memes"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent", "galaxytigers"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "galaxytigers"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"blast_doors",
+			"defenderdronepd",
+			"galaxytigers_sentry_support_hullmod",
+			"galaxytigers_warden_support_hullmod",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":2,
+		"numShips":5,
+		
+		"shipSize":3,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"strike_commander",
+			"carrier_group",
+			"fighter_uplink",
+			"fighter_doctrine",
+			"officer_management",
+			"officer_training",
+			"damage_control",
+			"coordinated_maneuvers",
+			"flux_regulation",
+			"electronic_warfare",
+			"reliability_engineering",
+			"helmsmanship",
+			"shield_modulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_aigt.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_aigt.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+	},	
+	"fleetTypeNames":{
+		#"patrolSmall":"Tiger Scouts",
+		#"patrolMedium":"Tiger Group",
+		#"patrolLarge":"Claw Pack",
+	}
+},
+

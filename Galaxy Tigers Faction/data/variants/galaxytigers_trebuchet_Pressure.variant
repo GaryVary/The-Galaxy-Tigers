@@ -1,0 +1,44 @@
+{
+  "displayName": "Pressure",
+  "fluxCapacitors": 10,
+  "fluxVents": 11,
+  "goalVariant": true,
+  "hullId": "galaxytigers_trebuchet",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_trebuchet_Pressure",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "galaxytigers_claw_mirv"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "galaxytigers_fang_mirv",
+        "WS0003": "galaxytigers_fang_mirv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hveldriver"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,209 @@
+{
+	id:"galaxytigers_drone_guard",
+	"color":[255,132,56,127],
+	
+	"baseUIColor":[255,132,56,255],	
+	"darkUIColor":[31,94,112,175],
+	"gridUIColor":[255,132,56,75],
+	
+	"displayName":"Automated GT",
+	"displayNameWithArticle":"the Automated GT",
+	"displayNameLong":"Automated GT",
+	"displayNameLongWithArticle":"the Automated GT",
+	"logo":"graphics/factions/gtflag.png",
+	"crest":"graphics/factions/gtflagmini.png",
+	"shipNamePrefix":"GTS",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"JAPAN":1,
+		"EGYPTIAN":1,
+		"CELTIC":2,
+		"BEASTS":3,
+		"AZTEC":1,
+		"GREEK":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"ai":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"galaxytigers_derelicts":10,
+		},
+		"hulls":{
+			"buffalo2":0,
+			"gremlin":0, # No gremlins, they're too weak
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["galaxytigers_derelicts"],
+		#"hulls":[
+		#],
+	},
+	"knownShips":{
+		"tags":["galaxytigers_derelicts"],
+		#"hulls":[
+		#],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["galaxytigers_derelicts"],
+		#"hulls":[
+		#],
+	},
+	"knownFighters":{
+		"tags":["galaxytigers_derelicts", "drone"],
+		"fighters":[
+			"wasp_wing",
+			"mining_drone_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["galaxytigers_derelicts", "drone"],
+		"fighters":[
+			"wasp_wing",
+			"mining_drone_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent", "galaxytigers"],
+		#"weapons":[
+		#],
+	},
+	"priorityWeapons":{
+		"tags":["galaxytigers"],
+		#"weapons":[
+		#],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "galaxytigers"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"blast_doors",
+			"defenderdronepd",
+			"galaxytigers_sentry_support_hullmod",
+			"galaxytigers_warden_support_hullmod",
+		],
+	},
+	"priorityHullMods":{
+		"tags":["base_bp", "galaxytigers"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"blast_doors",
+			"defenderdronepd",
+			"galaxytigers_sentry_support_hullmod",
+			"galaxytigers_warden_support_hullmod",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":2,
+		"numShips":1,
+		
+		"shipSize":3,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"strike_commander",
+			"carrier_group",
+			"fighter_uplink",
+			"fighter_doctrine",
+			"officer_management",
+			"officer_training",
+			"damage_control",
+			"coordinated_maneuvers",
+			"flux_regulation",
+			"electronic_warfare",
+			"reliability_engineering",
+			"helmsmanship",
+			"shield_modulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_friendly":"music_pirates_market_friendly",
+		"encounter_neutral":"music_hegemony_market_neutral",
+		"encounter_friendly":"music_pirates_encounter_friendly",
+	},
+	"internalComms":"galaxytigers_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_aigt.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_aigt_waifu.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":false, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"Drone Scouts",
+		"patrolMedium":"Drone Detachment",
+		"patrolLarge":"Drone Armada",
+	},
+},
+

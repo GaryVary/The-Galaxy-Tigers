@@ -1,0 +1,301 @@
+{
+	id:"galaxytigers",
+	"color":[255,132,56,127],
+	"baseUIColor":[255,132,56,255],	
+	"darkUIColor":[31,94,112,175],
+	"gridUIColor":[255,132,56,75],
+	"brightUIColor":[255,132,56,255],
+	
+	"displayName":"Galaxy Tigers",
+	"displayNameWithArticle":"the Galaxy Tigers",
+	"displayNameLong":"Galaxy Tigers",
+	"displayNameLongWithArticle":"the Galaxy Tigers",
+	"logo":"graphics/factions/gtflag.png",
+	"crest":"graphics/factions/gtflagmini.png",
+	"shipNamePrefix":"GTS",
+	"shipNameSources":{
+		"JAPAN":1,
+		"EGYPTIAN":1,
+		"CELTIC":2,
+		"BEASTS":3,
+		"AZTEC":1,
+		"GREEK":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"old english":1,
+		"world":1,
+		"future":1,
+		"myth":2,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"galaxytigers":10,
+		},
+		"hulls":{
+			"buffalo2":0,
+			"gremlin":0, # No gremlins, they're too weak
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "galaxytigers_bp", "galaxytigers_prime_bp", "galaxytigers"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "galaxytigers_bp", "galaxytigers_prime_bp", "galaxytigers"],
+		"hulls":[
+			"conquest",
+			"odyssey",
+			"apogee",
+			"aurora",
+			"heron",
+			"condor",
+			"doom",
+			"shepherd",
+			"wayfarer",
+			"cerberus",
+			"medusa",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["galaxytigers_bp", "galaxytigers_prime_bp", "galaxytigers"],
+		"hulls":[
+			"apogee",
+			"condor",
+			"doom",
+			"shepherd",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "galaxytigers_bp", "galaxytigers_prime_bp", "galaxytigers"],
+		"fighters":[
+			"wasp_wing",
+			"gladius_wing",
+			"mining_drone_wing",
+		],
+	},
+	"priorityFighters":{
+		#"tags":["base_bp", "lowtech_bp", "galaxytigers"],
+		"tags":["galaxytigers_bp", "galaxytigers_prime_bp", "galaxytigers"],
+		#"fighters":[
+		#],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent", "galaxytigers"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":["galaxytigers"],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "galaxytigers"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"dedicated_targeting_core",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"blast_doors",
+			"defenderdronepd",
+			"galaxytigers_sentry_support_hullmod",
+			"galaxytigers_warden_support_hullmod",
+		],
+	},
+	"priorityHullMods":{
+		"tags":["base_bp", "galaxytigers"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"blast_doors",
+			"defenderdronepd",
+			"galaxytigers_sentry_support_hullmod",
+			"galaxytigers_warden_support_hullmod",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":2,
+		"numShips":3,
+		
+		"shipSize":3,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.2,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"strike_commander",
+			"carrier_group",
+			"fighter_uplink",
+			"fighter_doctrine",
+			"officer_management",
+			"officer_training",
+			"damage_control",
+			"coordinated_maneuvers",
+			"flux_regulation",
+			"electronic_warfare",
+			"reliability_engineering",
+			"helmsmanship",
+			"shield_modulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"music":{
+		"theme":"music_galaxytigers_encounter_neutral",
+		"market_neutral":"music_galaxytigers_market_neutral",
+		"market_friendly":"music_galaxytigers_market_friendly",
+		"market_hostile":"music_galaxytigers_market_hostile",
+		"encounter_neutral":"music_galaxytigers_encounter_neutral",
+		"encounter_friendly":"music_galaxytigers_encounter_friendly",
+		"encounter_hostile":"music_galaxytigers_encounter_hostile",
+	},
+	"internalComms":"galaxytigers_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_corporate01.png",
+			"graphics/portraits/portrait_corporate03.png",
+			"graphics/portraits/portrait_corporate05.png",
+			"graphics/portraits/portrait_corporate06.png",
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",
+#			"graphics/portraits/characters/old_spacer02.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_corporate02.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_corporate07.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+#			"graphics/portraits/characters/old_spacer01.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Claw Leader"},
+			"factionLeader":{"name":"Grand Tiger"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Grand Tiger"},
+			"patrolCommander":{"name":"Scout Leader"},
+			"fleetCommander":{"name":"Group Chief"},
+			"baseCommander":{"name":"Tiger Leader"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":1.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":true,
+		"offerMissionsWhenHostile":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":false,
+		},
+	},	
+	"fleetTypeNames":{
+		"trade":"Claw Trader",
+		"tradeLiner":"Tiger Commercial Fleet",
+		"tradeSmuggler":"Copper Claw Trader",
+		"smallTrader":"Tiger Commercial Flotilla",
+		
+		"patrolSmall":"Tiger Scouts",
+		"patrolMedium":"Tiger Group",
+		"patrolLarge":"Claw Pack",
+		
+		"inspectionFleet":"Tiger Observers",
+		"taskForce":"Fang Commando",
+		
+		"foodReliefFleet":"Meat Provider",
+		
+		"mercScout":"Fang Searcher",
+		"mercBountyHunter":"Fang Contractors",
+		"mercPrivateer":"Tiger Guardians",
+		"mercPatrol":"Fang Patrollers",
+		"mercArmada":"Claw Armada",
+	}
+},
+

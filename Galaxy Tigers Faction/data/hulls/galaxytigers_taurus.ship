@@ -1,0 +1,165 @@
+{
+  "hullName": "Taurus",
+  "hullId": "galaxytigers_taurus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_taurus.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 180,
+  "width": 160,
+  "center": [89, 75],
+  "collisionRadius": 128,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 123.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "galaxytigers_automated_carrier"
+  ],
+  "builtInWeapons": {
+    "WS0007": "galaxytigers_blinker_red1",
+    "WS0009": "galaxytigers_blinker_red1"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [15, 44]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 163,
+      "angle": 74.5,
+      "locations": [-16, 64]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-27, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-28, -36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [84, -30]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [54, 26]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [91.5, -6]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        6, -45,
+        13, -45
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12.5, -57.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, -57.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47.5, 66],
+      "length": 62,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, 34.5],
+      "length": 80,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-58.5, -30.5],
+      "length": 50,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-58.5, 6.5],
+      "length": 50,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    33, 62,
+    59, 35,
+    93, -2,
+    93, -44,
+    83, -50,
+    22, -53,
+    -39, -46,
+    -58, -36,
+    -55, 43,
+    -45, 74,
+    2, 77
+  ]
+}

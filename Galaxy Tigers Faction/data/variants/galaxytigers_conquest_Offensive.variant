@@ -1,0 +1,70 @@
+{
+  "displayName": "Offensive",
+  "fluxCapacitors": 22,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "galaxytigers_conquest",
+  "hullMods": [
+    "extendedshieldemitter",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_conquest_Offensive",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hurricane",
+        "WS 002": "hurricane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "hellbore",
+        "WS 012": "hephag",
+        "WS 013": "hellbore",
+        "WS 014": "hephag",
+        "WS 015": "hveldriver",
+        "WS 016": "hveldriver",
+        "WS 017": "hveldriver",
+        "WS 018": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 019": "harpoonpod",
+        "WS 020": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 022": "ionbeam",
+        "WS 023": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lrpdlaser",
+        "WS 004": "lrpdlaser",
+        "WS 005": "lrpdlaser",
+        "WS 006": "lrpdlaser",
+        "WS 007": "lrpdlaser",
+        "WS 008": "lrpdlaser",
+        "WS 009": "lrpdlaser",
+        "WS 010": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

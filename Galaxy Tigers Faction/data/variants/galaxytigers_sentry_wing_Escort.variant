@@ -1,0 +1,36 @@
+{
+  "variantId": "galaxytigers_sentry_wing_Escort",
+  "hullId": "galaxytigers_sentry_wing",
+  "displayName": "Escort Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 8,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "annihilator",
+        "WS0001": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "swarmer",
+        "WS 003": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

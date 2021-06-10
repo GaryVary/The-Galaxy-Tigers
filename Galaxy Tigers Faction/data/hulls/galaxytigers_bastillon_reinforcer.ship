@@ -1,0 +1,275 @@
+{
+  "bounds": [
+    25,
+    29,
+    63,
+    32,
+    69,
+    17,
+    39,
+    13,
+    39,
+    -14,
+    69,
+    -17,
+    68,
+    -30,
+    23,
+    -28,
+    46,
+    -51,
+    37,
+    -62,
+    16,
+    -41,
+    9,
+    -42,
+    13,
+    -72,
+    -2,
+    -76,
+    -5,
+    -46,
+    -36,
+    -76,
+    -49,
+    -47,
+    -49,
+    46,
+    -36,
+    76,
+    -3,
+    45,
+    -3,
+    77,
+    13,
+    73,
+    8,
+    43,
+    15,
+    41,
+    38,
+    62,
+    48,
+    52
+  ],
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "galaxytigers_deactivated_weapons",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS 001": "ioncannon",
+    "WS 002": "ioncannon",
+    "WS 003": "vulcan",
+    "WS 004": "vulcan",
+    "WS 005": "ioncannon",
+    "WS 006": "ioncannon",
+    "WS 007": "lightneedler",
+    "WS 008": "lightneedler",
+    "WS 014": "lightdualmg",
+    "WS 015": "lightdualmg"
+  },
+  "center": [
+    82,
+    61
+  ],
+  "collisionRadius": 107,
+  "engineSlots": [],
+  "height": 140,
+  "hullId": "galaxytigers_bastillon_reinforcer",
+  "hullName": "Bastillon (GT)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 107,
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_bastillon.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 30,
+      "arc": 180,
+      "id": "WS 001",
+      "locations": [
+        59,
+        23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -30,
+      "arc": 180,
+      "id": "WS 002",
+      "locations": [
+        59,
+        -23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS 003",
+      "locations": [
+        -35,
+        65
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 120,
+      "id": "WS 004",
+      "locations": [
+        -35,
+        -65
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 150,
+      "id": "WS 005",
+      "locations": [
+        4,
+        -68
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 150,
+      "id": "WS 006",
+      "locations": [
+        4,
+        68
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 30,
+      "arc": 150,
+      "id": "WS 007",
+      "locations": [
+        37,
+        52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -30,
+      "arc": 150,
+      "id": "WS 008",
+      "locations": [
+        37,
+        -52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS 009",
+      "locations": [
+        39,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 55,
+      "arc": 20,
+      "id": "WS 010",
+      "locations": [
+        9,
+        45
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -55,
+      "arc": 20,
+      "id": "WS 011",
+      "locations": [
+        9,
+        -44
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 145,
+      "arc": 20,
+      "id": "WS 012",
+      "locations": [
+        -44,
+        49
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 215,
+      "arc": 20,
+      "id": "WS 013",
+      "locations": [
+        -44,
+        -49
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 165,
+      "arc": 150,
+      "id": "WS 014",
+      "locations": [
+        -48,
+        23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 195,
+      "arc": 150,
+      "id": "WS 015",
+      "locations": [
+        -49,
+        -23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 164
+}

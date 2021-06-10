@@ -1,0 +1,31 @@
+{
+  "displayName": "Scout",
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "galaxytigers_defender_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_defender_firstgen_Scout",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmg",
+        "WS 004": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "irpulse",
+        "WS 003": "irpulse"
+      }
+    }
+  ],
+  "wings": []
+}

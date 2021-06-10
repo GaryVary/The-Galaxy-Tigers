@@ -1,0 +1,7 @@
+Damage efficiency (flux/damage) is determined with damage/shot and energy/shot :
+- Frag weapons : around 0.3
+- Energy non beam : more than 1
+Rate of fire is determined by burst delay
+Damage per second is determined damage/second, same for flux/second. Can be useful for sustained beam weapons
+Projectile HP (missiles and such) is determined by proj hitpoints
+Projectile damage is determined by damage/shot

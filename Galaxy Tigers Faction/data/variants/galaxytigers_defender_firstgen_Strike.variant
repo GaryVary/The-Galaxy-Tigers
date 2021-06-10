@@ -1,0 +1,31 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 2,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "hullId": "galaxytigers_defender_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_defender_firstgen_Strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "railgun",
+        "WS 004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "irpulse",
+        "WS 003": "irpulse"
+      }
+    }
+  ],
+  "wings": []
+}

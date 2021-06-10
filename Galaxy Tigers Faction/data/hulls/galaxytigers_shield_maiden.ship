@@ -1,0 +1,180 @@
+{
+  "hullName": "Shield Maiden",
+  "hullId": "galaxytigers_shield_maiden",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_shield_maiden.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 200,
+  "width": 200,
+  "center": [100, 96],
+  "collisionRadius": 138.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 132,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "galaxytigers_automated_machinery"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 232,
+      "angle": 56.5,
+      "locations": [46, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 232,
+      "angle": -56.5,
+      "locations": [46, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [84, -12]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [84, 12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [91, 28]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [91, -28]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": -64.5,
+      "locations": [15, -55]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": 64.5,
+      "locations": [15, 55]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": 180,
+      "locations": [-18, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61.5, -65],
+      "length": 35,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61.5, 65],
+      "length": 35,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64.5, -50],
+      "length": 68,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-64.5, 50],
+      "length": 68,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, -28],
+      "length": 85,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, 28],
+      "length": 85,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-78, 0],
+      "length": 116,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    92, 32,
+    64, 53,
+    38, 55,
+    33, 68,
+    -9, 67,
+    -23, 76,
+    -59, 72,
+    -69, 36,
+    -78, 14,
+    -78, -14,
+    -69, -36,
+    -60, -72,
+    -23, -76,
+    -9, -67,
+    33, -68,
+    38, -56,
+    64, -53,
+    92, -32
+  ]
+}

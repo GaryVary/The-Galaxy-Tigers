@@ -1,0 +1,72 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 300,
+  "fireSoundTwo": "hurricane_mirv_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    26,
+    6.5,
+    26,
+    2.5,
+    26,
+    -2.5,
+    26,
+    -6.5
+  ],
+  "hardpointSprite": "graphics/weapons/gt_claw_mirv/claw_mirv_hardpoint_base.png",
+  "hardpointUnderSprite": "graphics/weapons/gt_claw_mirv/claw_mirv_hardpoint_under.png",
+  "id": "galaxytigers_claw_mirv",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "galaxytigers_tiger_mirv",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "LARGE",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    17,
+    6.5,
+    17,
+    2.5,
+    17,
+    -2.5,
+    17,
+    -6.5
+  ],
+  "turretSprite": "graphics/weapons/gt_claw_mirv/claw_mirv_turret_base.png",
+  "turretUnderSprite": "graphics/weapons/gt_claw_mirv/claw_mirv_turret_under.png",
+  "type": "MISSILE"
+}

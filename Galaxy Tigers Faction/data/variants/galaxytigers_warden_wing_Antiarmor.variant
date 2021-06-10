@@ -1,0 +1,29 @@
+{
+  "variantId": "galaxytigers_warden_wing_Antiarmor",
+  "hullId": "galaxytigers_warden_wing",
+  "displayName": "Anti Armor Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavymauler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

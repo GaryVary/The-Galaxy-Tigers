@@ -1,0 +1,54 @@
+{
+  "variantId": "galaxytigers_survey_mothership_Standard",
+  "hullId": "galaxytigers_survey_mothership",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 26,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "turretgyros",
+    "auxiliarythrusters",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "dualflak",
+        "WS0003": "dualflak"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS 001": "galaxytigers_survey_mothership_bow_module_Standard"
+    },
+    {
+      "WS 005": "galaxytigers_survey_mothership_sensor_mast_Standard"
+    },
+    {
+      "WS 002": "galaxytigers_survey_mothership_pod_engine_left_Standard"
+    },
+    {
+      "WS 004": "galaxytigers_survey_mothership_pod_m_right_Standard"
+    },
+    {
+      "WS 006": "galaxytigers_survey_mothership_pod_m_left_Standard"
+    },
+    {
+      "WS 003": "galaxytigers_survey_mothership_pod_s_right_Standard"
+    }
+  ],
+  "wings": []
+}

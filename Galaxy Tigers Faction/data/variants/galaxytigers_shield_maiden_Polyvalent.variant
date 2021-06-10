@@ -1,0 +1,56 @@
+{
+  "variantId": "galaxytigers_shield_maiden_Polyvalent",
+  "hullId": "galaxytigers_shield_maiden",
+  "displayName": "Polyvalent",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 12,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "defenderdronepd"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "galaxytigers_meteor_strike",
+        "WS0002": "galaxytigers_meteor_strike"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "harpoonpod",
+        "WS0004": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sabot",
+        "WS0006": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyac",
+        "WS0008": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

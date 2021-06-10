@@ -1,0 +1,36 @@
+{
+  "variantId": "galaxytigers_survey_mothership_pod_engine_left_Standard",
+  "hullId": "galaxytigers_survey_mothership_pod_engine_left",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 015": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

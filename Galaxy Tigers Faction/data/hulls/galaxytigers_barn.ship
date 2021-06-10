@@ -1,0 +1,128 @@
+{
+  "hullName": "Barn",
+  "hullId": "galaxytigers_barn",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_barn.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 250,
+  "width": 250,
+  "center": [131, 121],
+  "collisionRadius": 164,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "galaxytigers_automated",
+    "galaxytigers_automated_carrier"
+  ],
+  "builtInWings": [
+    "borer_wing",
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        63.5, -10.5,
+        52.5, -10,
+        75.5, -10,
+        63, -4
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        64.5, -31.5,
+        74.5, -31,
+        54, -31,
+        64, -40
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [74, 75]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88.5, 34],
+      "length": 108,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-88.5, -34],
+      "length": 108,
+      "width": 29,
+      "angle": -180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, -10.5],
+      "length": 70,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, 11.5],
+      "length": 70,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, -55],
+      "length": 65,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, 55],
+      "length": 65,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    20, 101,
+    59, 95,
+    64, 54,
+    95, 23,
+    101, 9,
+    99, -51,
+    74, -74,
+    40, -88,
+    -45, -88,
+    -68, -84,
+    -88, -44,
+    -88, 44,
+    -68, 89,
+    -6, 101
+  ]
+}

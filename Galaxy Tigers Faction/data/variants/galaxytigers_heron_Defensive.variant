@@ -1,0 +1,61 @@
+{
+  "displayName": "Defensive",
+  "fluxCapacitors": 19,
+  "fluxVents": 19,
+  "goalVariant": true,
+  "hullId": "galaxytigers_heron",
+  "hullMods": [
+    "hardenedshieldemitter",
+    "extendedshieldemitter"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_heron_Defensive",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "phasebeam",
+        "WS0003": "taclaser",
+        "WS0006": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "autopulse"
+      }
+    }
+  ],
+  "wings": [
+    "borer_wing",
+    "borer_wing",
+    "gt_brattice_wing",
+    "gt_brattice_wing"
+  ]
+}

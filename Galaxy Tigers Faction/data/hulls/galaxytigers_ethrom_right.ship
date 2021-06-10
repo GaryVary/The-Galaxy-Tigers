@@ -1,0 +1,149 @@
+{
+  "hullName": "Ethrom right part",
+  "hullId": "galaxytigers_ethrom_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ethrom/galaxytigers_ehtrom_right.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 148,
+  "width": 98,
+  "center": [49, 80.5],
+  "collisionRadius": 103,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "automated",
+    "reduced_explosion",
+    "galaxytigers_automated_carrier"
+  ],
+  "builtInWings": [
+    "gt_defender_PD_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": -14,
+      "locations": [53.5, 38]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": -45,
+      "locations": [40.5, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -74,
+      "locations": [23.5, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 278,
+      "angle": -6.5,
+      "locations": [40, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [0.5, 15]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 222,
+      "angle": -90,
+      "locations": [-27, -11.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 236,
+      "angle": -68,
+      "locations": [-4.5, -7]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        23.5, 37,
+        29.5, 34
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53, 8,
+        57.5, 8
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53, 3.5,
+        57.5, 4
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, -16],
+      "length": 42,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    63.5, 49,
+    13.5, 48,
+    -7.5, 26,
+    -46.5, 15,
+    -64.5, 1,
+    -80.5, -10,
+    -80.5, -22,
+    -64.5, -27,
+    -11.5, -30,
+    -2.5, -39,
+    26.5, -49,
+    58.5, -47,
+    67.5, -36
+  ]
+}

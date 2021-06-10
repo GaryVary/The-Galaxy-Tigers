@@ -1,0 +1,16 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "galaxytigers_hawkeye",
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_hawkeye_Standard",
+  "weaponGroups": [],
+  "wings": []
+}

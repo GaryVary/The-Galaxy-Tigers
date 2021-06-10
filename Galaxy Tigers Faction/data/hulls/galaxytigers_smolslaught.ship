@@ -1,0 +1,205 @@
+{
+  "bounds": [
+    -41,
+    -19,
+    -34,
+    -28,
+    -22,
+    -34,
+    -16,
+    -34,
+    8,
+    -30,
+    40,
+    -21,
+    40,
+    -17,
+    9,
+    -14,
+    41,
+    -4,
+    41,
+    4,
+    9,
+    14,
+    40,
+    17,
+    40,
+    21,
+    8,
+    30,
+    -16,
+    34,
+    -22,
+    34,
+    -34,
+    28,
+    -41,
+    19
+  ],
+  "builtInWeapons": {
+    "WS0006": "galaxytigers_xpc",
+    "WS0007": "galaxytigers_xpc"
+  },
+  "center": [
+    36,
+    43
+  ],
+  "collisionRadius": 79,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 35,
+      "location": [
+        -41,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 38,
+      "location": [
+        -41,
+        -14.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 38,
+      "location": [
+        -41,
+        14.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 30,
+      "location": [
+        -41,
+        7
+      ],
+      "style": "LOW_TECH",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 30,
+      "location": [
+        -41,
+        -7
+      ],
+      "style": "LOW_TECH",
+      "width": 11
+    }
+  ],
+  "height": 86,
+  "hullId": "galaxytigers_smolslaught",
+  "hullName": "Smolslaught",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 77.5,
+  "spriteName": "graphics/ships/galaxytigers_smolslaught.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 14,
+      "arc": 145,
+      "id": "WS0001",
+      "locations": [
+        4,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -14,
+      "arc": 145,
+      "id": "WS0002",
+      "locations": [
+        4,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 45,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        -12,
+        10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -45,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        -12,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0005",
+      "locations": [
+        14,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        18,
+        19
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        18,
+        -19
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 72
+}

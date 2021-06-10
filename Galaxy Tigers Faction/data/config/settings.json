@@ -1,0 +1,15 @@
+{
+	"graphics":{
+		"blueprint_packages":{
+			"galaxytigers_bp":"graphics/icons/cargo/galaxytigers_bp.png",
+			"galaxytigers_prime_bp":"graphics/icons/cargo/galaxytigers_bp.png",
+		},
+	},
+	"plugins":{
+        "galaxytigers_combatplugin":"data.scripts.plugins.galaxytigers_combatPlugin",
+    },
+	"designTypeColors":{
+		"Galaxy Tigers":[255,132,56,255],
+		"First Generation GT Drone":[234,147,97,255],
+	}
+}

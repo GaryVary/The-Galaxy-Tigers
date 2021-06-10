@@ -1,0 +1,176 @@
+{
+  "hullName": "Survey Mothership",
+  "hullId": "galaxytigers_survey_mothership",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_survey_mothership.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [257, 256],
+  "collisionRadius": 433.5,
+  "shieldCenter": [1, 1],
+  "shieldRadius": 424.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "automated",
+    "galaxytigers_coordinated_computing",
+    "galaxytigers_upgraded_weapon_processing",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [246, 61]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-194, 156]
+    },
+    {
+      "id": "WS 003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [105, -154]
+    },
+    {
+      "id": "WS 004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-158, -161]
+    },
+    {
+      "id": "WS 005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [267, -79]
+    },
+    {
+      "id": "WS 006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [103, 181]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": 28.5,
+      "locations": [148.5, 104]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 119,
+      "angle": 180,
+      "locations": [-194.5, 88]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 119,
+      "angle": 180,
+      "locations": [-204.5, -90]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-253, 118],
+      "length": 85,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-252, 80],
+      "length": 130,
+      "width": 49,
+      "angle": 180,
+      "contrailSize": 49,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-255, -79],
+      "length": 130,
+      "width": 49,
+      "angle": 180,
+      "contrailSize": 49,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-253, -148],
+      "length": 85,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    248, 118,
+    185, 144,
+    143, 154,
+    125, 157,
+    122, 172,
+    107, 177,
+    69, 189,
+    54, 160,
+    26, 178,
+    8, 164,
+    -21, 179,
+    -17, 153,
+    -75, 152,
+    -88, 144,
+    -111, 154,
+    -170, 174,
+    -236, 163,
+    -247, 119,
+    -244, -163,
+    -175, -174,
+    -140, -157,
+    -83, -152,
+    -75, -142,
+    -26, -153,
+    32, -137,
+    57, -147,
+    45, -163,
+    72, -164,
+    87, -159,
+    98, -178,
+    114, -143,
+    169, -136,
+    246, -91,
+    246, -30,
+    230, 4,
+    249, 26
+  ]
+}

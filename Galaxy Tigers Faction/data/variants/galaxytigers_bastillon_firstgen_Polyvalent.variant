@@ -1,0 +1,49 @@
+{
+  "displayName": "Polyvalent",
+  "fluxCapacitors": 7,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "galaxytigers_bastillon_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_bastillon_firstgen_Polyvalent",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "taclaser",
+        "WS 002": "taclaser",
+        "WS 005": "taclaser",
+        "WS 006": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "vulcan",
+        "WS 004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "lightac",
+        "WS 008": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "lightmg",
+        "WS 015": "lightmg"
+      }
+    }
+  ],
+  "wings": []
+}

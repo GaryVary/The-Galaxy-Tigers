@@ -1,0 +1,203 @@
+{
+  "bounds": [
+    48,
+    6,
+    49,
+    -18,
+    30,
+    -34,
+    -18,
+    -39,
+    -40,
+    -38,
+    -49,
+    -21,
+    -49,
+    21,
+    -40,
+    38,
+    -18,
+    39,
+    58,
+    30,
+    70,
+    18.5,
+    59,
+    6
+  ],
+  "builtInWings": [
+    "gt_brattice_wing"
+  ],
+  "center": [
+    75,
+    68
+  ],
+  "collisionRadius": 85,
+  "engineSlots": [
+    {
+      "angle": 179,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -48,
+        11.5
+      ],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": 181,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -48,
+        -12.5
+      ],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": 172,
+      "contrailSize": 24,
+      "length": 24,
+      "location": [
+        -47,
+        28.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 184,
+      "contrailSize": 24,
+      "length": 24,
+      "location": [
+        -47,
+        24.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 188,
+      "contrailSize": 24,
+      "length": 24,
+      "location": [
+        -47,
+        -29.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 176,
+      "contrailSize": 24,
+      "length": 24,
+      "location": [
+        -47,
+        -24.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 150,
+  "hullId": "galaxytigers_rana",
+  "hullName": "Rana",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 83,
+  "spriteName": "graphics/ships/galaxytigers_rana.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 18.5,
+      "arc": 160,
+      "id": "WS 001",
+      "locations": [
+        13.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -18.5,
+      "arc": 160,
+      "id": "WS 002",
+      "locations": [
+        13.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 217,
+      "id": "WS 004",
+      "locations": [
+        -15,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 140,
+      "arc": 150,
+      "id": "WS 005",
+      "locations": [
+        -33,
+        28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 210,
+      "arc": 160,
+      "id": "WS 006",
+      "locations": [
+        -33,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 80,
+      "id": "WS0001",
+      "locations": [
+        57,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 150
+}

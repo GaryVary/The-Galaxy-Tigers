@@ -1,0 +1,393 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME galaxytigers,,,,,,
+,,,,,,
+# Galaxy Tigers fleet greeting lines,,,,,,
+greetinggalaxytigersFriendly,OpenCommLink,"$faction.id == galaxytigers
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hey, it's great to see a familiar face! The Galaxy Tigers salute you Commander! Burn bright and have a great day.""",,
+greetinggalaxytigersHostileWeaker,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Your fleet has been identified as hostile. Don't try to engage us, the Grand Tiger never forgets what their enemies do to us!""",cutCommLink:Cut the comm link,
+greetinggalaxytigersHostileStronger,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Hey, if it isn't $playerName, one of our best enemies! I hope you are ready for what is about to happen to you and your crew...""
+The comm link is then cutted.",cutCommLink:Cut the comm link,
+greetinggalaxytigersHostileWeakerDefiant,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""You are identified as our enemy. We suggest you to E-Burn out of this area as soon as you can.""",cutCommLink:Cut the comm link,
+greetinggalaxytigersNeutral,OpenCommLink,"$faction.id == galaxytigers
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hello Commander. The Galaxy Tigers are pleased to wish you a great day.""",,
+#END Galaxy Tigers fleet greeting lines,,,,,,
+,,,,,,
+# Galaxy Tigers Drone Guard fleet greeting lines,,,,,,
+greetinggalaxytigersdroneguardFriendly,OpenCommLink,"$faction.id == galaxytigers
+$faction.friendlyToPlayer
+$tag:galaxytigers_ai_commander score:100","$menuState = fleetConvMain 0
+FireAll PopulateOptions","[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? NO]
+[INITIATE DIALOG]
+
+""Greetings $playerName. This is a pleasure to meet you. If the Galaxy Tigers can do anything to help you, don't hesitate to reach out one of our officials.""
+
+[END OF PROTOCOL]",,
+greetinggalaxytigersdroneguardHostileWeaker,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength < 0
+$tag:galaxytigers_ai_commander score:100",$entity.ignorePlayerCommRequests = true 1,"[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? YES]
+[INITIATE DIALOG]
+
+""Your fleet has been identified as hostile. Any offensive action will result into an armed response. Proceed at your own risk.""
+
+[END OF PROTOCOL]",cutCommLink:Cut the comm link,
+greetinggalaxytigersdroneguardHostileStronger,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength >= 0
+$tag:galaxytigers_ai_commander score:100",$entity.ignorePlayerCommRequests = true 1,"[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? YES]
+[INITIATE DIALOG]
+
+""Your fleet has been identified as hostile. We recommend you to give up and surrender yourself. If you don't comply, these vessels will use their weapons to get you down.""
+
+[END OF PROTOCOL]",cutCommLink:Cut the comm link,
+greetinggalaxytigersdroneguardHostileWeakerDefiant,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+$tag:galaxytigers_ai_commander score:100",$entity.ignorePlayerCommRequests = true 1,"[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? YES]
+[INITIATE DIALOG]
+
+""Your fleet has been identified as hostile. These vessels will now activate their combat systems to ensure the Galaxy Tigers' security.""
+
+[END OF PROTOCOL]",cutCommLink:Cut the comm link,
+greetinggalaxytigersdroneguardNeutral,OpenCommLink,"$faction.id == galaxytigers
+$faction.neutralToPlayer
+$tag:galaxytigers_ai_commander score:100","$menuState = fleetConvMain 0
+FireAll PopulateOptions","[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? NO]
+[INITIATE DIALOG]
+
+""Greetings Commander. The Galaxy Tigers are pleased to welcome another visitor and to wish you a great day.""
+
+[END OF PROTOCOL]",,
+#END Galaxy Tigers Drone Guard fleet greeting lines,,,,,,
+,,,,,,
+# GT drone guard fleet intercepting w/ transponder off,,,,,,
+galaxytigersdronefuardTOffPatrolOpenComm,OpenCommLink,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$entity.transponderOffConv score:100","AddText ""[FLEET IDENTIFICATION IMPOSSIBLE]\n[INITIATE DIALOG]\n\n\""Greetings Commander. You aren't allowed to run with your transponder off in $faction space. Please turn your transponder on to let us identify yourself. You are also ordered to submit to a cargo scan for contraband.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOff_comply:Turn the transponder on and comply
+1:tOff_refuse:Refuse and cut the comm link",
+galaxytigersdronefuardTOffPatrolOpenCommUnknown,OpenCommLink,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$entity.transponderOffConv score:100
+!$entity.knowsWhoPlayerIs","AddText ""[FLEET IDENTIFICATION IMPOSSIBLE]\n[INITIATE DIALOG]\n\n\""Your $shipOrFleet can't be identified. You aren't allowed to run with your transponder off in $faction space. You may now turn your transponder on and submit to a cargo scan.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOff_comply:Turn the transponder on and comply
+1:tOff_refuse:Refuse and cut the comm link",
+galaxytigersdronefuardTOffPatrolOpenCommTOn,OpenCommLink,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$entity.transponderOffConv score:100
+$player.transponderOn","AddText ""[FLEET IDENTIFICATION FINISHED]\n[INITIATE DIALOG]\n\n\""Greetings $playerName. We are sorry to inform you that running with your transponder off in this area is forbidden. Turning it on while you already caught our attention will not stop us to intercept you for security reasons. You are now ordered to submit to a cargo scan.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOff_comply2:Allow the scan
+1:tOff_refuse:Refuse and cut the comm link",
+galaxytigersdronefuardTOffPatrolOpenCommNotFirstTime,OpenCommLink,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$entity.transponderOffConv score:100
+$entity.sawPlayerWithTOffCount == 2.0 score:10
+$entity.relativeStrength >= 0","AddText ""[FLEET IDENTIFICATION FINISHED]\n[INITIATE DIALOG]\n\n\""$playerName, you were already told to keep your transponder on.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF
+AddText ""The comm link is cut before you have a chance to respond.""
+$entity.ignorePlayerCommRequests = true 0
+unset $entity.transponderOffConv",,0:tOff_notFirstTimeCont:Continue,
+galaxytigersdronefuardTOffCargoScanPods,TOffScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$scan_podsFound score:1000",unset $scan_podsFound,"[INITIATE CARGO PODS FOUND DIALOG]
+
+""It looks like there is cargo pods out there. Our scans showed illegal cargo. Since those aren't yours, we'll have to confiscate the contents.
+
+[END OF PROTOCOL]",0:tOff_podsCont:Continue,
+galaxytigersdronefuardTOffCargoScanClean,TOffScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+!$scan_contrabandFound
+!$scan_suspiciousCargoFound",,"[INITIATE CLEAN CARGO DIALOG]
+
+""No suspicious cargo found. You may now proceed to your occupations but with your transponder on.""
+
+[END OF PROTOCOL]
+
+The comm link is cut before you have a chance to respond.",0:tOff_cleanCont1:Continue,
+galaxytigersdronefuardTOffCargoScanSuspicious,TOffScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$scan_suspiciousCargoFound",,"While the scan finds no overt contraband, the quantity of cargo found, combined with indirect evidence of your prior black market activities, is enough to raise suspicions.
+
+It is not, however, enough to do anything about.
+
+[INITIATE SUSPICIOUS DIALOG]
+
+""No suspicious cargo found. We are, however, now keeping an eye onto your activities. Any new suspect action will result in a new interaction.""
+
+[END OF PROTOCOL]
+
+The comm link is then cut.",0:tOff_cleanCont1:Continue,
+galaxytigersdronefuardTOffCargoScanContraband,TOffScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$scan_contrabandFound score:10",,"[INITIATE CONTRABAND FOUND DIALOG]
+
+""Suspicious cargo found. You are now ordered to eject your contraband to let us destroy it.""
+
+[END OF PROTOCOL]","0:tOff_comply_contraband:Surrender the contraband and cut the comm link
+1:tOff_refuse:Refuse and cut the comm link",
+# END GT drone guard intercepting w/ transponder off,,,,,,
+,,,,,,
+# GT drone guard cargo scan from smuggling suspicion,,,,,,
+galaxytigersdroneguardcargoScanFirstComms,OpenCommLink,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$entity.cargoScanConv score:100","AddText ""[FLEET IDENTIFICATION FINISHED]\n[INITIATE DIALOG]\n\n\""Attention $playerName : your fleet matches the profile of a suspected smuggler posted by $market authorities. You are ordered to submit to a cargo scan.\""\n\n[END OF PROTOCOL]""
+",,"0:cargoScan_comply:Allow the scan
+1:cargoScan_refuse:Refuse and cut the comm link",
+galaxytigersdroneguardcargoScanPods,CargoScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$scan_podsFound score:1000",unset $scan_podsFound,"[INITIATE CARGO PODS FOUND DIALOG]
+
+""It looks like there is cargo pods out there. Our scans showed illegal cargo. Since those aren't yours, we'll have to confiscate the contents.
+
+[END OF PROTOCOL]",0:scan_podsCont:Continue,
+galaxytigersdroneguardcargoScanClean,CargoScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+!$scan_contrabandFound
+!$scan_suspiciousCargoFound",,"[INITIATE CLEAN CARGO DIALOG]
+
+""No suspicious cargo found. You may now proceed to your occupations.""
+
+[END OF PROTOCOL]
+
+The comm link is cut before you have a chance to respond.",0:cargoScan_cleanCont:Continue,
+galaxytigersdroneguardcargoScanSuspicious,CargoScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$scan_suspiciousCargoFound",,"While the scan finds no overt contraband, the quantity of cargo found, combined with indirect evidence of your prior black market activities, is enough to raise suspicions.
+
+It is not, however, enough to do anything about.
+
+[INITIATE SUSPICIOUS DIALOG]
+
+""No suspicious cargo found. We are, however, now keeping an eye onto your activities. Any new suspect action will result in a new interaction.""
+
+[END OF PROTOCOL]
+
+The comm link is then cut.",0:cargoScan_cleanCont:Continue,
+galaxytigersdroneguardcargoScanContraband,CargoScanResult,"$faction.id == galaxytigers
+$tag:galaxytigers_ai_commander score:100
+$scan_contrabandFound score:10",,"[INITIATE CONTRABAND FOUND DIALOG]
+
+""Suspicious cargo found. You are now ordered to eject your contraband to let us destroy it.""
+
+[END OF PROTOCOL]","0:cargoScan_comply_contraband:Surrender the contraband and cut the comm link
+1:cargoScan_refuse:Refuse and cut the comm link",
+# END GT drone guard cargo scan from smuggling suspicion,,,,,,
+,,,,,,
+# Galaxy Tigers commission,,,,,,
+CMSNTextRejectHostile_galaxytigers,CMSNTextRejectHostile,$faction.id == galaxytigers,,"""Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.""",,
+CMSNTextHasOther_galaxytigers,CMSNTextHasOther,$faction.id == galaxytigers,,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
+CMSNTextUnsuited_galaxytigers,CMSNTextUnsuited,$faction.id == galaxytigers,,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
+CMSNTextSuitedPart1_galaxytigers,CMSNTextSuitedPart1,$faction.id == galaxytigers,,"""Hmm, yes, you're a suitable candidate.
+
+Accepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.
+
+You'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
+CMSNTextSuitedPart2_galaxytigers,CMSNTextSuitedPart2,$faction.id == galaxytigers,,"""So, how about it? Still want to sign on?""",,
+CMSNTextWelcomePart1_galaxytigers,CMSNTextWelcomePart1,$faction.id == galaxytigers,,"""Excellent! Welcome to the service.""",,
+CMSNTextWelcomePart2_galaxytigers,CMSNTextWelcomePart2,$faction.id == galaxytigers,,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_galaxytigers,CMSNTextChangeMind,$faction.id == galaxytigers,,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.
+
+Anything else I can do for you?""",,
+CMSNResignAskToConfirm_galaxytigers,CMSNResignAskToConfirm,$faction.id == galaxytigers,,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+CMSNResignConfirmed_galaxytigers,CMSNResignConfirmed,$faction.id == galaxytigers,,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+CMSNResignCancelled_galaxytigers,CMSNResignCancelled,$faction.id == galaxytigers,,"""A good decision. We can use people like you.""",,
+,,,,,,
+# turning AI cores in,,,,,,
+aiCores_turnInOptionSelGalaxyTigers,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == galaxytigers",FireAll PopulateCoresTurnInOptions,"""A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favour and give you a good price.""",,
+aiCores_turnInResponseGalaxyTigers,AICoresTurnedIn,$faction.id == galaxytigers,FireAll PopulateOptions,"""I'm pleased we could help you out with these cores. Don't worry, they will get repurposed as soon as possible.""
+
+$PersonRank $personLastName gives you a happy smile and the conversation moves on to other matters.",,
+,,,,,,
+#Nexerelin related stuff,,,,,,
+,,,,,,
+# Galaxy Tigers Drone Guard special task fleet greeting lines,,,,,,
+greetinggalaxytigersdroneguardnexFriendly,OpenCommLink,"$faction.id == galaxytigers
+$faction.friendlyToPlayer
+$entity.fleetType == nex_specialForces score:100","$menuState = fleetConvMain 0
+FireAll PopulateOptions","[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? NO]
+[INITIATE DIALOG]
+
+""Greetings $playerName. This is a pleasure to meet you. If the Galaxy Tigers can do anything to help you, don't hesitate to reach out one of our officials.""
+
+[END OF PROTOCOL]",,
+greetinggalaxytigersdroneguardnexHostileWeaker,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.fleetType == nex_specialForces score:100",$entity.ignorePlayerCommRequests = true 1,"[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? YES]
+[INITIATE DIALOG]
+
+""Your fleet has been identified as hostile. Any offensive action will result into an armed response. Proceed at your own risk.""
+
+[END OF PROTOCOL]",cutCommLink:Cut the comm link,
+greetinggalaxytigersdroneguardnexHostileStronger,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength >= 0
+$entity.fleetType == nex_specialForces score:100",$entity.ignorePlayerCommRequests = true 1,"[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? YES]
+[INITIATE DIALOG]
+
+""Your fleet has been identified as hostile. We recommend you to give up and surrender yourself. If you don't comply, these vessels will use their weapons to get you down.""
+
+[END OF PROTOCOL]",cutCommLink:Cut the comm link,
+greetinggalaxytigersdroneguardnexHostileWeakerDefiant,OpenCommLink,"$faction.id == galaxytigers
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+$entity.fleetType == nex_specialForces score:100",$entity.ignorePlayerCommRequests = true 1,"[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? YES]
+[INITIATE DIALOG]
+
+""Your fleet has been identified as hostile. These vessels will now activate their combat systems to ensure the Galaxy Tigers' security.""
+
+[END OF PROTOCOL]",cutCommLink:Cut the comm link,
+greetinggalaxytigersdroneguardnexNeutral,OpenCommLink,"$faction.id == galaxytigers
+$faction.neutralToPlayer
+$entity.fleetType == nex_specialForces score:100","$menuState = fleetConvMain 0
+FireAll PopulateOptions","[FLEET IDENTIFICATION FINISHED]
+[IS TARGET HOSTILE? NO]
+[INITIATE DIALOG]
+
+""Greetings Commander. The Galaxy Tigers are pleased to welcome another visitor and to wish you a great day.""
+
+[END OF PROTOCOL]",,
+#END Galaxy Tigers Drone Guard special task fleet greeting lines,,,,,,
+,,,,,,
+# GT drone guard special task fleet intercepting w/ transponder off,,,,,,
+galaxytigersdronefuardnexTOffPatrolOpenComm,OpenCommLink,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$entity.transponderOffConv score:100","AddText ""[FLEET IDENTIFICATION IMPOSSIBLE]\n[INITIATE DIALOG]\n\n\""Greetings Commander. You aren't allowed to run with your transponder off in $faction space. Please turn your transponder on to let us identify yourself. You are also ordered to submit to a cargo scan for contraband.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOff_comply:Turn the transponder on and comply
+1:tOff_refuse:Refuse and cut the comm link",
+galaxytigersdronefuardnexTOffPatrolOpenCommUnknown,OpenCommLink,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$entity.transponderOffConv score:100
+!$entity.knowsWhoPlayerIs","AddText ""[FLEET IDENTIFICATION IMPOSSIBLE]\n[INITIATE DIALOG]\n\n\""Your $shipOrFleet can't be identified. You aren't allowed to run with your transponder off in $faction space. You may now turn your transponder on and submit to a cargo scan.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOff_comply:Turn the transponder on and comply
+1:tOff_refuse:Refuse and cut the comm link",
+galaxytigersdronefuardnexTOffPatrolOpenCommTOn,OpenCommLink,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$entity.transponderOffConv score:100
+$player.transponderOn","AddText ""[FLEET IDENTIFICATION FINISHED]\n[INITIATE DIALOG]\n\n\""Greetings $playerName. We are sorry to inform you that running with your transponder off in this area is forbidden. Turning it on while you already caught our attention will not stop us to intercept you for security reasons. You are now ordered to submit to a cargo scan.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOff_comply2:Allow the scan
+1:tOff_refuse:Refuse and cut the comm link",
+galaxytigersdronefuardnexTOffPatrolOpenCommNotFirstTime,OpenCommLink,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$entity.transponderOffConv score:100
+$entity.sawPlayerWithTOffCount == 2.0 score:10
+$entity.relativeStrength >= 0","AddText ""[FLEET IDENTIFICATION FINISHED]\n[INITIATE DIALOG]\n\n\""$playerName, you were already told to keep your transponder on.\""\n\n[END OF PROTOCOL]""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF
+AddText ""The comm link is cut before you have a chance to respond.""
+$entity.ignorePlayerCommRequests = true 0
+unset $entity.transponderOffConv",,0:tOff_notFirstTimeCont:Continue,
+galaxytigersdronefuardnexTOffCargoScanPods,TOffScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$scan_podsFound score:1000",unset $scan_podsFound,"[INITIATE CARGO PODS FOUND DIALOG]
+
+""It looks like there is cargo pods out there. Our scans showed illegal cargo. Since those aren't yours, we'll have to confiscate the contents.
+
+[END OF PROTOCOL]",0:tOff_podsCont:Continue,
+galaxytigersdronefuardnexTOffCargoScanClean,TOffScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+!$scan_contrabandFound
+!$scan_suspiciousCargoFound",,"[INITIATE CLEAN CARGO DIALOG]
+
+""No suspicious cargo found. You may now proceed to your occupations but with your transponder on.""
+
+[END OF PROTOCOL]
+
+The comm link is cut before you have a chance to respond.",0:tOff_cleanCont1:Continue,
+galaxytigersdronefuardnexTOffCargoScanSuspicious,TOffScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$scan_suspiciousCargoFound",,"While the scan finds no overt contraband, the quantity of cargo found, combined with indirect evidence of your prior black market activities, is enough to raise suspicions.
+
+It is not, however, enough to do anything about.
+
+[INITIATE SUSPICIOUS DIALOG]
+
+""No suspicious cargo found. We are, however, now keeping an eye onto your activities. Any new suspect action will result in a new interaction.""
+
+[END OF PROTOCOL]
+
+The comm link is then cut.",0:tOff_cleanCont1:Continue,
+galaxytigersdronefuardnexTOffCargoScanContraband,TOffScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$scan_contrabandFound score:10",,"[INITIATE CONTRABAND FOUND DIALOG]
+
+""Suspicious cargo found. You are now ordered to eject your contraband to let us destroy it.""
+
+[END OF PROTOCOL]","0:tOff_comply_contraband:Surrender the contraband and cut the comm link
+1:tOff_refuse:Refuse and cut the comm link",
+# END GT drone guard special task fleet intercepting w/ transponder off,,,,,,
+,,,,,,
+# GT drone guard special task fleet cargo scan from smuggling suspicion,,,,,,
+galaxytigersdroneguardnexcargoScanFirstComms,OpenCommLink,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$entity.cargoScanConv score:100","AddText ""[FLEET IDENTIFICATION FINISHED]\n[INITIATE DIALOG]\n\n\""Attention $playerName : your fleet matches the profile of a suspected smuggler posted by $market authorities. You are ordered to submit to a cargo scan.\""\n\n[END OF PROTOCOL]""
+",,"0:cargoScan_comply:Allow the scan
+1:cargoScan_refuse:Refuse and cut the comm link",
+galaxytigersdroneguardnexcargoScanPods,CargoScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$scan_podsFound score:1000",unset $scan_podsFound,"[INITIATE CARGO PODS FOUND DIALOG]
+
+""It looks like there is cargo pods out there. Our scans showed illegal cargo. Since those aren't yours, we'll have to confiscate the contents.
+
+[END OF PROTOCOL]",0:scan_podsCont:Continue,
+galaxytigersdroneguardnexcargoScanClean,CargoScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+!$scan_contrabandFound
+!$scan_suspiciousCargoFound",,"[INITIATE CLEAN CARGO DIALOG]
+
+""No suspicious cargo found. You may now proceed to your occupations.""
+
+[END OF PROTOCOL]
+
+The comm link is cut before you have a chance to respond.",0:cargoScan_cleanCont:Continue,
+galaxytigersdroneguardnexcargoScanSuspicious,CargoScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$scan_suspiciousCargoFound",,"While the scan finds no overt contraband, the quantity of cargo found, combined with indirect evidence of your prior black market activities, is enough to raise suspicions.
+
+It is not, however, enough to do anything about.
+
+[INITIATE SUSPICIOUS DIALOG]
+
+""No suspicious cargo found. We are, however, now keeping an eye onto your activities. Any new suspect action will result in a new interaction.""
+
+[END OF PROTOCOL]
+
+The comm link is then cut.",0:cargoScan_cleanCont:Continue,
+galaxytigersdroneguardnexcargoScanContraband,CargoScanResult,"$faction.id == galaxytigers
+$entity.fleetType == nex_specialForces score:100
+$scan_contrabandFound score:10",,"[INITIATE CONTRABAND FOUND DIALOG]
+
+""Suspicious cargo found. You are now ordered to eject your contraband to let us destroy it.""
+
+[END OF PROTOCOL]","0:cargoScan_comply_contraband:Surrender the contraband and cut the comm link
+1:cargoScan_refuse:Refuse and cut the comm link",
+# END GT drone guard special task fleet cargo scan from smuggling suspicion,,,,,,
+,,,,,,

@@ -1,0 +1,25 @@
+{
+	"id":"galaxytigers_patience_minelayer_proj",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/missiles/gt_mine.png",
+	"size":[34,34],	
+	"center":[17,17],
+	"collisionRadius":32,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,225,90,100],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual	
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS},
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration	
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0},
+	"onHitEffect":"data.weapons.galaxytigers_Patience_Mine_On_Hit_Effect",
+}

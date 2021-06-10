@@ -1,0 +1,15 @@
+{
+	"baseHullId": "galaxytigers_fortress",
+	"baseValueMult": 1.75,
+	"descriptionId": "galaxytigers_fortress",
+	"descriptionPrefix": "This vessel is one of the rare leftovers of the first automated ships produced by the Galaxy Tigers. Due to the fact of being an old prototype, its performances may be highly different from the actual ones used by the faction.",
+	"fleetPoints": 20,
+	"hullName": "Fortress (GT) (Gen 1)",
+	"tags":["galaxytigers_prime_bp", "galaxytigers", "galaxytigers_derelicts"],
+	"tech":"First Generation GT Drone",
+	"ordnancePoints": 220,
+	"restoreToBaseHull": false,
+	"skinHullId": "galaxytigers_fortress_firstgen",
+	"spriteName": "graphics/ships/gtderelict/galaxytigers_fortress_firstgen.png",
+	"builtInMods":["galaxytigers_firstgen"],
+}

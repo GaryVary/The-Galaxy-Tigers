@@ -1,0 +1,25 @@
+{
+	"defaultChannels":[
+		"galaxytigers_public",
+	],	
+	"galaxytigers_internal":{
+		"name":"Galaxy Tigers Observers",
+		"logo":"graphics/icons/intel/gt_internal.png",
+		"icon":"graphics/icons/intel/gt_internal.png",
+		"image":"graphics/factions/gtflagmini.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"galaxytigers",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+	"galaxytigers_public":{
+		"name":"Galaxy Tigers Broadcast",
+		"logo":"graphics/icons/intel/gt_public.png",
+		"icon":"graphics/icons/intel/gt_public.png",
+		"image":"graphics/factions/gtflagmini.png",
+		"sound":"ui_channel_news",
+		"faction":"galaxytigers",
+		"type":"News Report",
+		"shortType":"News",
+	},
+}

@@ -1,0 +1,14 @@
+{
+	"id":"galaxytigers_drone_call",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.shipsystems.scripts.ai.galaxytigers_drone_call_AI",
+	"statsScript":"data.shipsystems.scripts.galaxytigers_drone_call_Script",
+
+	"useSound":"gt_deactite_fire",
+	#"deactivateSound":"system_high_energy_focus_deactivate",
+
+	"outOfUsesSound":"gun_out_of_ammo",
+	#"loopSound":"system_high_energy_focus_loop",
+}

@@ -1,0 +1,121 @@
+{
+  "bounds": [
+    7,
+    27,
+    21,
+    6,
+    21,
+    -19,
+    -16,
+    -21,
+    -18,
+    20
+  ],
+  "builtInMods": [
+    "automated",
+    "missleracks"
+  ],
+  "center": [
+    28,
+    23
+  ],
+  "collisionRadius": 34,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 36,
+      "length": 28,
+      "location": [
+        -21,
+        15
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 48,
+      "length": 32,
+      "location": [
+        -21,
+        1
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 36,
+      "length": 28,
+      "location": [
+        -21,
+        -13
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    }
+  ],
+  "height": 50,
+  "hullId": "galaxytigers_sentry_wing",
+  "hullName": "Sentry (GT)",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    1,
+    0
+  ],
+  "shieldRadius": 36,
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_sentry.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 001",
+      "locations": [
+        16,
+        19
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 002",
+      "locations": [
+        21,
+        1
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 003",
+      "locations": [
+        21,
+        -14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        -1,
+        7
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 52
+}

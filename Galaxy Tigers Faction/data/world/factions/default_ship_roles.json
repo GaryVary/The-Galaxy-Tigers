@@ -1,0 +1,281 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"galaxytigers_defender_Assault":2,
+		"galaxytigers_defender_Offensive":2,
+		"galaxytigers_defender_Scout":3,
+		"galaxytigers_defender_Strike":3,
+		"galaxytigers_warden_AntiShield":2,
+		"galaxytigers_warden_Assault":2,
+		"galaxytigers_warden_Battle":2,
+		"galaxytigers_warden_Brawling":1,
+		"galaxytigers_warden_Combat":1,
+		"galaxytigers_warden_Strike":2,
+		"galaxytigers_sentry_Assault":3,
+		"galaxytigers_sentry_Strike":3,
+		"galaxytigers_sentry_Support":4,
+		"galaxytigers_picket_Attack":2,
+		"galaxytigers_picket_Offensive":2,
+		"galaxytigers_picket_Scout":2,
+		"galaxytigers_picket_Strike":2,
+		"galaxytigers_picket_Support":2,
+		"galaxytigers_defender_firstgen_Assault":1,
+		"galaxytigers_defender_firstgen_Offensive":1,
+		"galaxytigers_defender_firstgen_Scout":1.5,
+		"galaxytigers_defender_firstgen_Strike":1.5,
+		"galaxytigers_warden_firstgen_AntiShield":1,
+		"galaxytigers_warden_firstgen_Assault":1,
+		"galaxytigers_warden_firstgen_Battle":1,
+		"galaxytigers_warden_firstgen_Brawling":0.5,
+		"galaxytigers_warden_firstgen_Combat":0.5,
+		"galaxytigers_warden_firstgen_Strike":1,
+		"galaxytigers_sentry_firstgen_Assault":1.5,
+		"galaxytigers_sentry_firstgen_Strike":1.5,
+		"galaxytigers_sentry_firstgen_Support":2,
+		"galaxytigers_picket_firstgen_Attack":1,
+		"galaxytigers_picket_firstgen_Offensive":1,
+		"galaxytigers_picket_firstgen_Scout":1,
+		"galaxytigers_picket_firstgen_Strike":1,
+		"galaxytigers_picket_firstgen_Support":1,
+		"galaxytigers_cerbherd_Polyvalent":4,
+		"galaxytigers_cerbherd_Strike":3,
+		"galaxytigers_cerbherd_Support":3,
+		"galaxytigers_rana_Strike":5,
+		"galaxytigers_rana_Standard":5,
+		
+		"galaxytigers_smolslaught_Polyvalent":5,
+		"galaxytigers_smolslaught_Strike":5,
+		
+		"galaxytigers_smolslaught_p_Polyvalent":5,
+		"galaxytigers_smolslaught_p_Strike":5,
+		
+		"galaxytigers_true_baguette_Boss":10,
+	},
+	"combatSmall":{
+		"galaxytigers_defender_Assault":2,
+		"galaxytigers_defender_Offensive":2,
+		"galaxytigers_defender_Scout":3,
+		"galaxytigers_defender_Strike":3,
+		"galaxytigers_warden_AntiShield":2,
+		"galaxytigers_warden_Assault":2,
+		"galaxytigers_warden_Battle":2,
+		"galaxytigers_warden_Brawling":1,
+		"galaxytigers_warden_Combat":1,
+		"galaxytigers_warden_Strike":2,
+		"galaxytigers_sentry_Assault":3,
+		"galaxytigers_sentry_Strike":3,
+		"galaxytigers_sentry_Support":4,
+		"galaxytigers_picket_Attack":2,
+		"galaxytigers_picket_Offensive":2,
+		"galaxytigers_picket_Scout":2,
+		"galaxytigers_picket_Strike":2,
+		"galaxytigers_picket_Support":2,
+		"galaxytigers_defender_firstgen_Assault":1,
+		"galaxytigers_defender_firstgen_Offensive":1,
+		"galaxytigers_defender_firstgen_Scout":1.5,
+		"galaxytigers_defender_firstgen_Strike":1.5,
+		"galaxytigers_warden_firstgen_AntiShield":1,
+		"galaxytigers_warden_firstgen_Assault":1,
+		"galaxytigers_warden_firstgen_Battle":1,
+		"galaxytigers_warden_firstgen_Brawling":0.5,
+		"galaxytigers_warden_firstgen_Combat":0.5,
+		"galaxytigers_warden_firstgen_Strike":1,
+		"galaxytigers_sentry_firstgen_Assault":1.5,
+		"galaxytigers_sentry_firstgen_Strike":1.5,
+		"galaxytigers_sentry_firstgen_Support":2,
+		"galaxytigers_picket_firstgen_Attack":1,
+		"galaxytigers_picket_firstgen_Offensive":1,
+		"galaxytigers_picket_firstgen_Scout":1,
+		"galaxytigers_picket_firstgen_Strike":1,
+		"galaxytigers_picket_firstgen_Support":1,
+		"galaxytigers_shank_Attack":5,
+		"galaxytigers_shank_Support":5,
+		"galaxytigers_cerbherd_Polyvalent":4,
+		"galaxytigers_cerbherd_Strike":3,
+		"galaxytigers_cerbherd_Support":3,
+		"galaxytigers_rana_Strike":5,
+		"galaxytigers_rana_Standard":5,
+		
+		"galaxytigers_smolslaught_Polyvalent":5,
+		"galaxytigers_smolslaught_Strike":5,
+		
+		"galaxytigers_smolslaught_p_Polyvalent":5,
+		"galaxytigers_smolslaught_p_Strike":5,
+		
+		"galaxytigers_true_baguette_Boss":10,
+	},
+	"combatMedium":{
+		"galaxytigers_bandit_mining_Battle":10,
+		"galaxytigers_bandit_combat_AntiShield":3,
+		"galaxytigers_bandit_combat_Explosive":3,
+		"galaxytigers_bandit_combat_Hammering":4,
+		"galaxytigers_berserker_HeavySupport":2,
+		"galaxytigers_berserker_Polyvalent":3,
+		"galaxytigers_berserker_Strike":2,
+		"galaxytigers_berserker_Support":3,
+		"galaxytigers_bastillon_Polyvalent":4,
+		"galaxytigers_bastillon_PD":3,
+		"galaxytigers_bastillon_CloseFight":3,
+		"galaxytigers_berserker_firstgen_HeavySupport":1,
+		"galaxytigers_berserker_firstgen_Polyvalent":1.5,
+		"galaxytigers_berserker_firstgen_Strike":1,
+		"galaxytigers_berserker_firstgen_Support":1.5,
+		"galaxytigers_bastillon_firstgen_Polyvalent":2,
+		"galaxytigers_bastillon_firstgen_PD":1.5,
+		"galaxytigers_bastillon_firstgen_CloseFight":1.5,
+		"galaxytigers_taurus_Heavysupport":3,
+		"galaxytigers_taurus_Polyvalent":4,
+		"galaxytigers_taurus_Support":3,
+		"galaxytigers_trebuchet_Offensive":3,
+		"galaxytigers_trebuchet_Polyvalent":4,
+		"galaxytigers_trebuchet_Pressure":3,
+		
+		"galaxytigers_true_baguette_Boss":10,
+	},
+	"combatLarge":{
+		"galaxytigers_aurora_Assault":1,
+		"galaxytigers_aurora_Assault_Support":2,
+		"galaxytigers_aurora_Balanced":2,
+		"galaxytigers_aurora_Escort":2,
+		"galaxytigers_aurora_FS":1,
+		"galaxytigers_aurora_Strike":2,
+		"galaxytigers_fortress_Offensivesupport":5,
+		"galaxytigers_fortress_Offensive":5,
+		"galaxytigers_rampart_Assault":2,
+		"galaxytigers_rampart_Polyvalent":2,
+		"galaxytigers_rampart_Strike":3,
+		"galaxytigers_rampart_Support":3,
+		"galaxytigers_fortress_firstgen_Offensivesupport":2.5,
+		"galaxytigers_fortress_firstgen_Offensive":2.5,
+		"galaxytigers_rampart_firstgen_Assault":1,
+		"galaxytigers_rampart_firstgen_Polyvalent":1,
+		"galaxytigers_rampart_firstgen_Strike":1.5,
+		"galaxytigers_rampart_firstgen_Support":1.5,
+		"galaxytigers_shield_maiden_Polyvalent":5,
+		"galaxytigers_shield_maiden_Support":5,
+		
+		"galaxytigers_true_baguette_Boss":10,
+	},
+	"combatCapital":{
+		"galaxytigers_conquest_Attack":3,
+		"galaxytigers_conquest_Front":3,
+		"galaxytigers_conquest_Offensive":2,
+		"galaxytigers_conquest_Strike":2,
+		"galaxytigers_atlas_fortress_Balanced":10,
+		"galaxytigers_ethrom_Standard":10,
+		"galaxytigers_reinforcer_Standard":5,
+		
+		#"galaxytigers_baguette_p_Strike":4,
+		
+		"galaxytigers_atlas_h_Elite":10,
+		"galaxytigers_atlas_h_xiv_Elite":10,
+		
+		"galaxytigers_true_baguette_Boss":10,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	
+	},
+	"combatFreighterMedium":{
+	
+	},
+	"combatFreighterLarge":{
+		"galaxytigers_reinforcer_Standard":5,
+	},
+	
+	"civilianRandom":{
+		"galaxytigers_hawkeye_Standard":10,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"galaxytigers_keeper_Support":10,
+		"galaxytigers_keeper_firstgen_Support":5,
+	},
+	"carrierMedium":{
+		#"galaxytigers_heron_Attack":5,
+		#"galaxytigers_heron_Defensive":5,
+		"galaxytigers_puma_Polyvalent":5,
+		"galaxytigers_puma_Support":5,
+		"galaxytigers_kandorig_Support":10,
+	},
+	"carrierLarge":{
+		"galaxytigers_atlas_fortress_Balanced":10,
+		"galaxytigers_sanctum_Polyvalent":10,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"galaxytigers_truck_Standard":10,
+	},
+	"freighterMedium":{
+		"galaxytigers_barn_Conveying":10,
+	},
+	"freighterLarge":{
+		
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+		"galaxytigers_kandorig_Support":10,
+	},
+	"utility":{
+		"galaxytigers_bandit_mining_Utility":10,
+		"galaxytigers_hawkeye_Standard":10,
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+	
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+	},
+
+	"escortSmall":{
+	},
+	"escortMedium":{
+	},
+	
+}

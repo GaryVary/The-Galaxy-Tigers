@@ -1,0 +1,69 @@
+{
+  "variantId": "galaxytigers_kandorig_Support",
+  "hullId": "galaxytigers_kandorig",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "defenderdronepd"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoonpod",
+        "WS0002": "harpoonpod",
+        "WS0003": "annihilator",
+        "WS0004": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0008": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "LEFTPART": "galaxytigers_kandorig_left_Support"
+    },
+    {
+      "RIGHTPART": "galaxytigers_kandorig_right_Support"
+    }
+  ],
+  "wings": [
+    "gt_bristol_wing",
+    "gt_bristol_wing",
+    "gt_brattice_wing"
+  ]
+}

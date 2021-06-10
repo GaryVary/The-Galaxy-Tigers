@@ -1,0 +1,46 @@
+commodity,group,freq
+nothing,galaxytigers_drop1,370
+"wpn_:{tags:[low, !no_drop], weaponSize:SMALL, weaponType:BALLISTIC}",galaxytigers_drop1,100
+"wpn_:{tags:[mid, !no_drop], weaponSize:SMALL, weaponType:MISSILE}",galaxytigers_drop1,100
+"wpn_:{tags:[high, !no_drop], weaponSize:SMALL, weaponType:ENERGY}",galaxytigers_drop1,100
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:SMALL, weaponType:BALLISTIC}",galaxytigers_drop1,120
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:SMALL, weaponType:MISSILE}",galaxytigers_drop1,120
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:SMALL, weaponType:ENERGY}",galaxytigers_drop1,120
+"wpn_:{tags:[low, !no_drop], weaponSize:MEDIUM, weaponType:BALLISTIC}",galaxytigers_drop1,75
+"wpn_:{tags:[mid, !no_drop], weaponSize:MEDIUM, weaponType:MISSILE}",galaxytigers_drop1,75
+"wpn_:{tags:[high, !no_drop], weaponSize:MEDIUM, weaponType:ENERGY}",galaxytigers_drop1,75
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:MEDIUM, weaponType:BALLISTIC}",galaxytigers_drop1,95
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:MEDIUM, weaponType:MISSILE}",galaxytigers_drop1,95
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:MEDIUM, weaponType:ENERGY}",galaxytigers_drop1,95
+"ftr_:{tags:[galaxytigers_bp, !no_drop]}",galaxytigers_drop1,50
+"ftr_:{tags:[galaxytigers_prime_bp, !no_drop]}",galaxytigers_drop1,25
+"item_:{tags:[galaxytigers_bp, !no_drop]}",galaxytigers_drop1,10
+"item_:{tags:[galaxytigers_prime_bp, !no_drop]}",galaxytigers_drop1,2
+"item_ship_bp:{tags:[rare_bp, !no_drop]}",galaxytigers_drop1,5
+"item_ship_bp:{tags:[galaxytigers_bp, !no_drop]}",galaxytigers_drop1,15
+"item_ship_bp:{tags:[galaxytigers_prime_bp, !no_drop]}",galaxytigers_drop1,10
+,,
+nothing,galaxytigers_drop2,340
+"wpn_:{tags:[low, !no_drop], weaponSize:MEDIUM, weaponType:BALLISTIC}",galaxytigers_drop2,100
+"wpn_:{tags:[mid, !no_drop], weaponSize:MEDIUM, weaponType:MISSILE}",galaxytigers_drop2,100
+"wpn_:{tags:[high, !no_drop], weaponSize:MEDIUM, weaponType:ENERGY}",galaxytigers_drop2,100
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:MEDIUM, weaponType:BALLISTIC}",galaxytigers_drop2,120
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:MEDIUM, weaponType:MISSILE}",galaxytigers_drop2,120
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:MEDIUM, weaponType:ENERGY}",galaxytigers_drop2,120
+"wpn_:{tags:[low, !no_drop], weaponSize:LARGE, weaponType:BALLISTIC}",galaxytigers_drop2,75
+"wpn_:{tags:[mid, !no_drop], weaponSize:LARGE, weaponType:MISSILE}",galaxytigers_drop2,75
+"wpn_:{tags:[high, !no_drop], weaponSize:LARGE, weaponType:ENERGY}",galaxytigers_drop2,75
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:LARGE, weaponType:BALLISTIC}",galaxytigers_drop2,95
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:LARGE, weaponType:MISSILE}",galaxytigers_drop2,95
+"wpn_:{tags:[galaxytigers, !no_drop], weaponSize:LARGE, weaponType:ENERGY}",galaxytigers_drop2,95
+"ftr_:{tags:[galaxytigers_bp, !no_drop]}",galaxytigers_drop2,50
+"ftr_:{tags:[galaxytigers_prime_bp, !no_drop]}",galaxytigers_drop2,25
+"item_:{tags:[galaxytigers_bp, !no_drop]}",galaxytigers_drop2,10
+"item_:{tags:[galaxytigers_prime_bp, !no_drop]}",galaxytigers_drop2,2
+"item_ship_bp:{tags:[rare_bp, !no_drop]}",galaxytigers_drop2,10
+"item_ship_bp:{tags:[galaxytigers_bp, !no_drop]}",galaxytigers_drop2,30
+"item_ship_bp:{tags:[galaxytigers_prime_bp, !no_drop]}",galaxytigers_drop2,20
+,,
+hand_weapons,galaxytigers_misc,50
+heavy_machinery,galaxytigers_misc,50
+rare_metals,galaxytigers_misc,20

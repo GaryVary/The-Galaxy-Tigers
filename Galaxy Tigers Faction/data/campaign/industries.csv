@@ -1,0 +1,4 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+galaxytigers_ai_repurpose_facility,AI Repurposing Facility,45,120,,8,,,"industry, industrial, urban",,graphics/icons/industry/galaxytigers_ai_repurpose.png,data.campaign.econ.industries.galaxytigers_AI_Repurpose_Facility,"A facility building and programming simple AIs, or repurposing and reprogramming given cores, for many uses like machinery automation or traffic organisation. Requires crew, supplies and also marines to guard the facility.",9200
+galaxytigers_drone_platform,Drone Platform,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/illustrations/terran_orbit.jpg,data.campaign.econ.industries.galaxytigers_Drone_Platform,A platform where the drones of the Galaxy Tigers specifically assigned to a guard task can land and then be maintained if necessary.,9201
+,,,,,,,, ,,,,,

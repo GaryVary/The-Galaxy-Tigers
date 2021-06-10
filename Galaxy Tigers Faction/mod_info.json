@@ -1,0 +1,10 @@
+{
+	"id":"gt_galaxytigers", # internal id
+	"name":"Galaxy Tigers Faction", # displayed to the player
+	"author":"KnightOfTigers",
+	"version":"1.4.4",
+	"description":"Adds the Galaxy Tigers faction into the game. They have some faction-specific stuff (ships, hullmods, etc). More is planned. \n\n Compatible with Nexerelin & Commissioned Crews. \n\n Requires LazyLib and MagicLib.",
+	"gameVersion":"0.95a",
+	"jars":["jars/GT.jar"],
+	"modPlugin":"data.scripts.GTModPlugin",
+}

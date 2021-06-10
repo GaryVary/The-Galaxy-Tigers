@@ -1,0 +1,95 @@
+{
+	"id":"galaxytigers_defender_PD_heavysupport",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"galaxytigers_defender_system_PD",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":300,
+	"launchDelay":7.5,
+	"maxDrones":2,
+	"droneBehavior":[
+	#	{"droneIndex":[0],
+	#	 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+	#	 "faceEnemy":true,
+	#	 "holdRoamRange":0,
+	#	 "freeRoamRange":200,
+	#	 "targetPriority":[MISSILE, FIGHTER, SHIP],	# also SHIP_TARGET to prefer targeting the mothership's target
+	#	 "initialOrbitAngle":72,
+	#	 "orbitRadius":100, 				# plus ship radius
+	#	 "orbitDir":1, 					# -1 or 1
+	#	 "orbitSpeed":50, 				# pixels/second
+	#	},
+	#	{"droneIndex":[1],
+	#	 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+	#	 "faceEnemy":true,
+	#	 "holdRoamRange":0,
+	#	 "freeRoamRange":200,
+	#	 "targetPriority":[MISSILE, FIGHTER, SHIP],
+	#	 "initialOrbitAngle":144,
+	#	 "orbitRadius":100, 				# plus ship radius
+	#	 "orbitDir":1, 					# -1 or 1
+	#	 "orbitSpeed":50, 				# pixels/second
+	#	},
+	#	{"droneIndex":[2],
+	#	 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+	#	 "faceEnemy":true,
+	#	 "holdRoamRange":0,
+	#	 "freeRoamRange":200,
+	#	 "targetPriority":[MISSILE, FIGHTER, SHIP],
+	#	 "initialOrbitAngle":216,
+	#	 "orbitRadius":100, 				# plus ship radius
+	#	 "orbitDir":1, 					# -1 or 1
+	#	 "orbitSpeed":50, 				# pixels/second
+	#	},
+	#	{"droneIndex":[3],
+	#	 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+	#	 "faceEnemy":true,
+	#	 "holdRoamRange":0,
+	#	 "freeRoamRange":200,
+	#	 "targetPriority":[MISSILE, FIGHTER, SHIP],
+	#	 "initialOrbitAngle":288,
+	#	 "orbitRadius":100, 				# plus ship radius
+	#	 "orbitDir":1, 					# -1 or 1
+	#	 "orbitSpeed":50, 				# pixels/second
+	#	},
+	#	{"droneIndex":[4],
+	#	 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+	#	 "faceEnemy":true,
+	#	 "holdRoamRange":0,
+	#	 "freeRoamRange":200,
+	#	 "targetPriority":[MISSILE, FIGHTER, SHIP],
+	#	 "initialOrbitAngle":360,
+	#	 "orbitRadius":100, 				# plus ship radius
+	#	 "orbitDir":1, 					# -1 or 1
+	#	 "orbitSpeed":50, 				# pixels/second
+	#	},
+		{"droneIndex":[0],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":500,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP],	# also SHIP_TARGET to prefer targeting the mothership's target
+		 "initialOrbitAngle":90,
+		 "orbitRadius":150, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":50, 				# pixels/second
+		},
+		{"droneIndex":[1],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":500,
+		 "freeRoamRange":1500,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP],
+		 "initialOrbitAngle":370,
+		 "orbitRadius":150, 				# plus ship radius
+		 "orbitDir":-1, 					# -1 or 1
+		 "orbitSpeed":50, 				# pixels/second
+		},
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

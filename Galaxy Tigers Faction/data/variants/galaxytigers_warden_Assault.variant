@@ -1,0 +1,29 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 3,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "galaxytigers_warden",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_warden_Assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightneedler"
+      }
+    }
+  ],
+  "wings": []
+}

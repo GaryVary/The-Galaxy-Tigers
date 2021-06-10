@@ -1,0 +1,104 @@
+{
+  "hullName": "ArrowTip",
+  "hullId": "galaxytigers_arrowtip",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/galaxytigers_arrowtip.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 45,
+  "width": 50,
+  "center": [25, 17.5],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "galaxytigers_toucan_single",
+    "WS0002": "galaxytigers_toucan_single",
+    "WS0004": "lightmg",
+    "WS0005": "lightmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [9.5, 8.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 15.5],
+      "length": 25,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-14, -15.5],
+      "length": 25,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-10, -6.5],
+      "length": 18,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-10, 6.5],
+      "length": 18,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    20, 4,
+    6.5, 20,
+    -14.5, 20,
+    -14.5, 11,
+    -9.5, 4,
+    -9.5, -4,
+    -14.5, -11,
+    -14.5, -20,
+    6.5, -20,
+    20, -4
+  ]
+}

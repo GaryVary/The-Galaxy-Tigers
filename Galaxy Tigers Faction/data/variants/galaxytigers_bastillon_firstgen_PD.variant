@@ -1,0 +1,43 @@
+{
+  "displayName": "Point Defense",
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "goalVariant": true,
+  "hullId": "galaxytigers_bastillon_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_bastillon_firstgen_PD",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lrpdlaser",
+        "WS 002": "lrpdlaser",
+        "WS 005": "lrpdlaser",
+        "WS 006": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "vulcan",
+        "WS 004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "lightdualmg",
+        "WS 008": "lightdualmg",
+        "WS 014": "lightdualmg",
+        "WS 015": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

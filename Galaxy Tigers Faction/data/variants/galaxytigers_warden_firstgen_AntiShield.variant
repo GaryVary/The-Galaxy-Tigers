@@ -1,0 +1,29 @@
+{
+  "displayName": "Shield Hater",
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "galaxytigers_warden_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_warden_firstgen_AntiShield",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightneedler"
+      }
+    }
+  ],
+  "wings": []
+}

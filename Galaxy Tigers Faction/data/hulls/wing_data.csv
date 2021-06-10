@@ -1,0 +1,17 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+gt_arrowtip_wing,galaxytigers_arrowtip_Fighter,"bomber, bomber5, drone, low, galaxytigers_bp, galaxytigers, galaxytigers_derelicts",0,,7,16,V,4000,2000,600,2,BOMBER,Bombardment Drone,15,12000,,,,,,,,,,,,,52
+gt_buster_wing,galaxytigers_buster_B10_Fighter,"fighter, bomber3, low, galaxytigers_bp, galaxytigers",0,,5,12,V,3000,1500,300,3,BOMBER,Pressure Craft,15,10000,,,,,,,,,,,,,52
+gt_watchtower_wing,galaxytigers_watchtower_Fighter,"interceptor, fighter3, mid, galaxytigers_bp, galaxytigers",0,,3,2,V,0,,200,4,INTERCEPTOR,Escort Fighter,5,1500,,,,,,,,,,,,,6
+gt_spider_drone_wing,galaxytigers_drone_spider_Fighter,"fighter, fighter4, drone, mid, galaxytigers_bp, galaxytigers, galaxytigers_derelicts",1,,7,12,CLAW,4000,,100,2,FIGHTER,Offensive Support Drone,15,11000,,,,,,,,,,,,,51
+gt_brattice_wing,galaxytigers_brattice_Fighter,"interceptor, fighter2, drone, low, galaxytigers_derelicts, galaxytigers, galaxytigers_bp",0,,2,3,V,4000,,200,3,FIGHTER,Assault Drone,5,3000,,,,,,,,,,,,,52
+gt_bristol_wing,galaxytigers_bristol_H5S5_Fighter,"bomber, fighter4, low, galaxytigers_bp, galaxytigers",0,,7,12,CLAW,3000,500,300,5,FIGHTER,Pressure Craft,10,5000,,,,,,,,,,,,,51
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gt_picket_support_brawling_wing,galaxytigers_picket_wing_Brawling,"low, drone, no_drop, no_sell",0,,0,0,V,3000,,400,1,FIGHTER,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_picket_support_emp_wing,galaxytigers_picket_wing_EMP,"low, drone, no_drop, no_sell",0,,0,0,V,3000,,400,1,FIGHTER,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_picket_support_escort_wing,galaxytigers_picket_wing_Escort,"low, drone, no_drop, no_sell",0,,0,0,V,800,,400,1,INTERCEPTOR,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_defender_PD_wing,galaxytigers_defender_system_PD,"low, drone, no_drop, no_sell",0,,0,0,V,800,,400,1,INTERCEPTOR,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_defender_support_strike_wing,galaxytigers_defender_system_Strike,"low, drone, no_drop, no_sell",0,,0,0,V,3000,,400,1,FIGHTER,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_warden_support_wing,galaxytigers_warden_wing_Polyvalent,"low, drone, no_drop, no_sell",0,,0,0,V,4000,,400,1,FIGHTER,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_warden_support_antiarmor_wing,galaxytigers_warden_wing_Antiarmor,"low, drone, no_drop, no_sell",0,,0,0,V,4000,,400,1,FIGHTER,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_sentry_support_escort_wing,galaxytigers_sentry_wing_Escort,"low, drone, no_drop, no_sell",0,,0,0,V,800,,400,1,INTERCEPTOR,Support Drone,40,0,,,,,,,,,,,,,1000
+gt_sentry_support_wing,galaxytigers_sentry_wing_Pressure,"low, drone, no_drop, no_sell",0,,0,0,V,3000,,400,1,FIGHTER,Support Drone,40,0,,,,,,,,,,,,,1000

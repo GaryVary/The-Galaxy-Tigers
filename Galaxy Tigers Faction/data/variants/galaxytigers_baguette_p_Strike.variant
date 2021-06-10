@@ -1,0 +1,77 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 29,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "galaxytigers_baguette_p",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "galaxytigers_baguette_p_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "locust",
+                "WS0004": "annihilator",
+                "WS0020": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightag",
+                "WS0005": "lightag",
+                "WS0007": "lightag",
+                "WS0010": "lightag",
+                "WS0011": "hephag",
+                "WS0012": "hephag",
+                "WS0018": "lightag",
+                "WS0021": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "hveldriver",
+                "WS0009": "heavyneedler",
+                "WS0013": "lightneedler",
+                "WS0019": "hveldriver",
+                "WS0022": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "lightdualmg",
+                "WS0016": "dualflak",
+                "WS0023": "lightdualmg",
+                "WS0025": "lightdualmg",
+                "WS0026": "lightdualmg",
+                "WS0028": "dualflak",
+                "WS0029": "dualflak",
+                "WS0030": "lightdualmg",
+                "WS0031": "lightdualmg",
+                "WS0032": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "heavymauler",
+                "WS0015": "heavymauler",
+                "WS0017": "heavymauler",
+                "WS0024": "shredder",
+                "WS0027": "shredder"
+            }
+        }
+    ],
+    "wings": [
+        "hoplon_wing",
+        "hoplon_wing"
+    ]
+}

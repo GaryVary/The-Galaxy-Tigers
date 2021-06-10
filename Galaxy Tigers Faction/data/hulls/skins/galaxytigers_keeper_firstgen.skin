@@ -1,0 +1,15 @@
+{
+	"baseHullId": "galaxytigers_keeper",
+	"baseValueMult": 1.75,
+	"descriptionId": "galaxytigers_keeper",
+	"descriptionPrefix": "This vessel is one of the rare leftovers of the first automated ships produced by the Galaxy Tigers. Due to the fact of being an old prototype, its performances may be highly different from the actual ones used by the faction.",
+	"fleetPoints": 11,
+	"hullName": "Keeper (GT) (Gen 1)",
+	"tags":["galaxytigers_prime_bp", "galaxytigers", "galaxytigers_derelicts"],
+	"tech":"First Generation GT Drone",
+	"ordnancePoints": 60,
+	"restoreToBaseHull": false,
+	"skinHullId": "galaxytigers_keeper_firstgen",
+	"spriteName": "graphics/ships/gtderelict/galaxytigers_keeper_firstgen.png",
+	"builtInMods":["galaxytigers_firstgen"],
+}

@@ -1,0 +1,29 @@
+{
+  "displayName": "Armada",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "galaxytigers_bristol_H5S5",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_bristol_H5S5_Fighter",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "galaxytigers_lighter_needler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "galaxytigers_annihilator_fighter"
+      }
+    }
+  ],
+  "wings": []
+}

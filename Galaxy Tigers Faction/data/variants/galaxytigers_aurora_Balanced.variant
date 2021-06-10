@@ -1,0 +1,58 @@
+{
+  "displayName": "Balanced",
+  "fluxCapacitors": 21,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "galaxytigers_aurora",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "galaxytigers_aurora_Balanced",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "ionbeam",
+        "WS 006": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "heavyblaster",
+        "WS 009": "heavyblaster",
+        "WS 010": "amblaster",
+        "WS 012": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "ionpulser",
+        "WS 011": "ioncannon",
+        "WS 013": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "pdburst",
+        "WS 004": "pdburst",
+        "WS 005": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

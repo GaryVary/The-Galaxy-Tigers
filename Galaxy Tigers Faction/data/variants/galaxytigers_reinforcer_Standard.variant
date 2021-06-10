@@ -1,0 +1,87 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 21,
+  "goalVariant": true,
+  "hullId": "galaxytigers_reinforcer",
+  "hullMods": [
+    "galaxytigers_defender_transport"
+  ],
+  "modules": [
+	{
+      "HANGAR": "galaxytigers_defender_reinforcer_Scout"
+    },
+    {
+      "SCAFFOLD": "galaxytigers_bastillon_reinforcer_CloseFight"
+    }
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_reinforcer_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0032": "salamanderpod",
+        "WS0033": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "annihilator",
+        "WS0006": "annihilator",
+        "WS0007": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper",
+        "WS0012": "hveldriver",
+        "WS0024": "heavymauler",
+        "WS0030": "sabot",
+        "WS0031": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "galaxytigers_meteor_strike",
+        "WS0009": "galaxytigers_meteor_strike"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "galaxytigers_wallbrick_gun",
+        "WS0002": "lightag",
+        "WS0010": "railgun",
+        "WS0011": "galaxytigers_wallbrick_cannon",
+        "WS0013": "galaxytigers_shrapnolt",
+        "WS0014": "galaxytigers_shrapnolt",
+        "WS0015": "galaxytigers_lighter_needler",
+        "WS0016": "galaxytigers_lighter_needler",
+        "WS0017": "vulcan",
+        "WS0018": "vulcan",
+        "WS0019": "shredder",
+        "WS0020": "shredder",
+        "WS0021": "dualflak",
+        "WS0022": "dualflak",
+        "WS0023": "dualflak",
+        "WS0025": "shredder",
+        "WS0026": "shredder",
+        "WS0027": "galaxytigers_shrapnolt",
+        "WS0028": "galaxytigers_lighter_needler",
+        "WS0029": "galaxytigers_lighter_needler"
+      }
+    }
+  ],
+  "wings": []
+}

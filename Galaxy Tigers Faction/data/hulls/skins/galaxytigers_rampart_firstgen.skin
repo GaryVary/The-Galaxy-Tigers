@@ -1,0 +1,15 @@
+{
+	"baseHullId": "galaxytigers_rampart",
+	"baseValueMult": 1.75,
+	"descriptionId": "galaxytigers_rampart",
+	"descriptionPrefix": "This vessel is one of the rare leftovers of the first automated ships produced by the Galaxy Tigers. Due to the fact of being an old prototype, its performances may be highly different from the actual ones used by the faction.",
+	"fleetPoints": 14,
+	"hullName": "Rampart (GT) (Gen 1)",
+	"tags":["galaxytigers_prime_bp", "galaxytigers", "galaxytigers_derelicts"],
+	"tech":"First Generation GT Drone",
+	"ordnancePoints": 140,
+	"restoreToBaseHull": false,
+	"skinHullId": "galaxytigers_rampart_firstgen",
+	"spriteName": "graphics/ships/gtderelict/galaxytigers_rampart_firstgen.png",
+	"builtInMods":["galaxytigers_firstgen"],
+}

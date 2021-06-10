@@ -1,0 +1,22 @@
+{
+  "displayName": "PD",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "galaxytigers_drone_spider",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_drone_spider_PD",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

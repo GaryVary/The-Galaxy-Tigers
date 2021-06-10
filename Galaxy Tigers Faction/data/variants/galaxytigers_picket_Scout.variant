@@ -1,0 +1,30 @@
+{
+  "displayName": "Scout",
+  "fluxCapacitors": 4,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "galaxytigers_picket",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_picket_Scout",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "railgun",
+        "WS 003": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightdualac"
+      }
+    }
+  ],
+  "wings": []
+}

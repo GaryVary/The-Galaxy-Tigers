@@ -1,0 +1,79 @@
+{
+  "bounds": [
+    21,
+    20,
+    21,
+    -19,
+    2,
+    -25,
+    -16,
+    -19,
+    -16,
+    19,
+    1,
+    28
+  ],
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "always_detaches",
+    "galaxytigers_deactivated_weapons"
+  ],
+  "center": [
+    30,
+    24
+  ],
+  "collisionRadius": 34,
+  "engineSlots": [],
+  "height": 52,
+  "hullId": "galaxytigers_picket_reinforcer",
+  "hullName": "Picket (GT)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    1,
+    0
+  ],
+  "shieldRadius": 36,
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_picket.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 2,
+      "arc": 10,
+      "id": "WS 001",
+      "locations": [
+        21,
+        14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 002",
+      "locations": [
+        21,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -2,
+      "arc": 10,
+      "id": "WS 003",
+      "locations": [
+        21,
+        -14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 60
+}

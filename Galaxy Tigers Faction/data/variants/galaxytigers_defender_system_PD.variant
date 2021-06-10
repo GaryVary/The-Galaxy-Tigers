@@ -1,0 +1,31 @@
+{
+  "displayName": "Escort Drone",
+  "fluxCapacitors": 4,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "galaxytigers_defender_system",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_defender_system_PD",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 004": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightdualmg",
+        "WS 003": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

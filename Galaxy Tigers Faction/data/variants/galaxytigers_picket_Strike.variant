@@ -1,0 +1,32 @@
+{
+  "variantId": "galaxytigers_picket_Strike",
+  "hullId": "galaxytigers_picket",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 8,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "galaxytigers_lighter_needler",
+        "WS 003": "galaxytigers_lighter_needler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

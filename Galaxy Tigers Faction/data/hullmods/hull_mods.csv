@@ -1,0 +1,98 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Drone Support : Polyvalent Warden,galaxytigers_warden_support_hullmod,0,,Galaxy Tigers,"special, offensive, non-phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6500,,,,6,12,24,48,data.hullmods.GT_Drone_Hullmod_Warden_Polyvalent,"Fits an %s in a handmade bay. Its armaments are composed of an Arbalest Autocannon and a Light Assault Gun, which will be used to either %s or %s.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Warden (GT) drone supporting the ship.,graphics/hullmods/automated_escort_warden.png
+Drone Support : Anti Armor Warden,galaxytigers_warden_support_antiarmor_hullmod,0,,Galaxy Tigers,"special, offensive, non-phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6500,,,,6,12,24,48,data.hullmods.GT_Drone_Hullmod_Warden_Antiarmor,"Fits an %s in a handmade bay. Its armaments are composed of an Arbalest Autocannon and a Light Assault Gun, which will be used to either %s or %s.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Warden (GT) drone supporting the ship.,graphics/hullmods/automated_escort_warden.png
+Drone Support : Brawling Picket,galaxytigers_picket_support_brawling_hullmod,0,,Galaxy Tigers,"special, offensive, non_phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6500,,,,6,12,24,48,data.hullmods.GT_Drone_Hullmod_Picket_Brawling,"Fits an %s in a handmade bay. Its armaments are composed of a Light Mortar, a Light Dual Autocannon and a Wallbrick Gun, which will be used to %s or %s.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Picket (GT) drone supporting the ship.,graphics/hullmods/automated_escort_picket.png
+Drone Support : Picket Escort,galaxytigers_picket_support_escort_hullmod,0,,Galaxy Tigers,"special, defensive, non_phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6000,,,,5,10,20,40,data.hullmods.GT_Drone_Hullmod_Picket_Escort,"Fits an %s in a handmade bay. Its armaments are composed of PD weapons, which will be used to %s. If no PD assistance is required, the drone will %s, if possible.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Picket (GT) drone supporting the ship.,graphics/hullmods/automated_escort_picket.png
+Drone Support : EMP Picket,galaxytigers_picket_support_emp_hullmod,0,,Galaxy Tigers,"special, offensive, non_phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6500,,,,6,12,24,48,data.hullmods.GT_Drone_Hullmod_Picket_EMP,"Fits an %s in a handmade bay. Its armaments are composed of 2 Ion Cannons and a Micro Bolter, which will be used to %s or %s.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Picket (GT) drone supporting the ship.,graphics/hullmods/automated_escort_picket.png
+Drone Support : Pressure Sentry,galaxytigers_sentry_support_hullmod,0,,Galaxy Tigers,"special, offensive, non-phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",7000,,,,8,16,30,60,data.hullmods.GT_Drone_Hullmod_Sentry_Pressure,"Fits an %s in a handmade bay. Its armaments are composed of missiles, which will be used to %s, and a laser. When out of missiles, the drone will %s.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Sentry (GT) drone supporting the ship.,graphics/hullmods/automated_escort_sentry.png
+Drone Support : Sentry Escort,galaxytigers_sentry_support_escort_hullmod,0,,Galaxy Tigers,"special, offensive, non-phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6500,,,,5,10,20,40,data.hullmods.GT_Drone_Hullmod_Sentry_Escort,"Fits an %s in a handmade bay. Its armaments are composed of missiles and a Vulcan Cannon, which will be used to %s. If no PD assistance is required, the drone will %s, if possible.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Sentry (GT) drone supporting the ship.,graphics/hullmods/automated_escort_sentry.png
+Drone Support : Defender Escort,defenderdronepd,0,,Galaxy Tigers,"special, defensive, non_phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Defenses, Requires Dock",6500,,,,5,10,20,40,data.hullmods.GT_Drone_Hullmod_Defender_PD,"Fits an %s in a handmade bay. Its armaments are composed of PD weapons, which will be used to %s. If enemy ships are close enough and no PD assitance is needed, the drone will %s instead.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Defender (GT) drone supporting the ship.,graphics/hullmods/automated_escort_defender.png
+Drone Support : Strike Defender,galaxytigers_defender_support_strike_hullmod,0,,Galaxy Tigers,"special, offensive, non_phase, req_spaceport, galaxytigers, galaxytigers_bp","Special, Requires Dock",6500,,,,6,12,24,48,data.hullmods.GT_Drone_Hullmod_Defender_Strike,"Fits an %s in a handmade bay. Its armaments are composed of IR Pulse Lasers and Railguns, which will be used to %s or %s.
+
+This ship is a %s. It is %s. Due to the %s equipment, refitting a destroyed drone %s.
+
+This hullmod works but isn't perfect yet. If you try to remove the drone, it will be instantly replaced by another. The supposedly removed one will be in your inventory. It has no value and can't be sold, and even though it is perfectly usable, the drone is supposed to be only placed in a single bay with this hullmod, so you can drop it in space, it'll be fine (unless you want to cheat a bit, then use it at will).
+Trying to replace the drone will not work either since the wing you'll try to place will instantly get replaced by another drone, but the OP the wing cost will be taken in account. The only way to reverse this is to strip the ship out of all of what it is equiped with.
+Sorry for any eventual inconvenience this may cause.",Add a Defender (GT) drone supporting the ship.,graphics/hullmods/automated_escort_defender.png
+,,,,,,,,,,,,,,,,,,
+Defender Transport,galaxytigers_defender_transport,0,,Galaxy Tigers,"no_drop, no_sell","Special, Requires Dock",,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_Defender_Transport,Sets the drone stocked in the hangar as a %s.,Sets the drone of the hangar as a Defender GT,graphics/hullmods/automated_escort.png
+Picket Transport,galaxytigers_picket_transport,0,,Galaxy Tigers,"no_drop, no_sell","Special, Requires Dock",,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_Picket_Transport,Sets the drone stocked in the hangar as a %s.,Sets the drone of the hangar as a Picket (GT),graphics/hullmods/automated_escort.png
+Sentry Transport,galaxytigers_sentry_transport,0,,Galaxy Tigers,"no_drop, no_sell","Special, Requires Dock",,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_Sentry_Transport,Sets the drone stocked in the hangar as a %s.,Sets the drone of the hangar as a Sentry (GT),graphics/hullmods/automated_escort.png
+Warden Transport,galaxytigers_warden_transport,0,,Galaxy Tigers,"no_drop, no_sell","Special, Requires Dock",,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_Warden_Transport,Sets the drone stocked in the hangar as a %s.,Sets the drone of the hangar as a Warden (GT),graphics/hullmods/automated_escort.png
+,,,,,,,,,,,,,,,,,,
+Automated Carrier,galaxytigers_automated_carrier,,,Galaxy Tigers,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.GT_Automated_Carrier,"This ship is mounted with entirely automated fighter equipments, from the building to the refitting. Such systems needs a lot of space, thus %s. Only %s can be used in such conditions.
+
+However, such constraints also comes with benefits. The equipments offer high performances and produce high quality materials, meaning that the mounted fighters need %s less time to be refitted, their max speed is raised by %s and their turn rate by %s
+
+Incompatible with %s.",No manned fighters. Increases replacement rate and overall agility of fighters,graphics/hullmods/galaxytigers_automated_carrier.png
+Automated Machinery,galaxytigers_automated_machinery,,,Galaxy Tigers,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.GT_Automated_Machinery,"This ship is mounted with completely automated equipments for it to run correctly. If a hangar would have to be installed on this vessel, a heavy adaptation work will have to be performed to integrate new equipments for fighter building and refitting. The standard ones are not compatible with this ship's machinery, thus requiring special ones especially built for this ship, and due to the room they take, %s. Only %s can be used in such conditions.
+
+However, such constraints also comes with benefits. The equipments offer high performances and produce high quality materials, meaning that the mounted fighters need %s less time to be refitted, their max speed is raised by %s and their turn rate by %s
+
+Incompatible with %s.",No manned fighters. Made for non base carrier drones.,graphics/hullmods/galaxytigers_automated_machinery.png
+,,,,,,,,,,,,,,,,,,
+Upgraded Weapon Processing,galaxytigers_upgraded_weapon_processing,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.GT_Upgraded_Weapon_Processing,Upgrades energy and ballistic weapons rate of fire by %s/%s/%s/%s depending of hull size. Doesn't affect their flux/shot.,Upgrade energy & ballistic weapons ROF.,
+,,,,,,,,,,,,,,,,,,
+Optimized AI Processing,galaxytigers_optimized_ai_processing,,,Galaxy Tigers,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.GT_Optimized_AI_Processing,"This ships AI has been modified to send many intel to every other AI being in a fleet, from almost exact target locations to recommended speed and maneuvers to get to it.
+Increases 0-flux speed boost of Automated Ships in the fleet by %s and their weapon range by %s.
+%s.",More speed boost for Automated Ships in fleet as well as weapon range,graphics/hullmods/galaxytigers_optimized_ai_processing.png
+Coordinated Computing,galaxytigers_coordinated_computing,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.GT_Optimized_AI_Processing,"This ships AI has been modified to send many intel to every other AI being in a fleet, from almost exact target locations to recommended speed and maneuvers to get to it.
+Increases 0-flux speed boost of Automated Ships in the fleet by %s and their weapon range by %s.
+%s.",More speed boost for Automated Ships in fleet as well as weapon range,graphics/hullmods/galaxytigers_optimized_ai_processing.png
+,,,,,,,,,,,,,,,,,,
+First Generation,galaxytigers_firstgen,,,Galaxy Tigers,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_First_Gen,"This vessel is one of the first prototypes deployed by the Galaxy Tigers. Despite these many years of service, these prototypes remain one of the prides of the GT Navy.
+
+Compared to their modern version, this First Generation vessel is lighter (%s armor) but has some redeeming traits in a top speed increase of %s and a turn rate increase of %s.","More speed dans turn rate, trading armor.",graphics/hullmods/galaxytigers_gen_1.png
+,,,,,,,,,,,,,,,,,,
+Galaxy Tigers armor plates,galaxytigers_commissioned_armor_plates,,,Galaxy Tigers,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.GT_Commissioned_Armor_Plates,"This ship is commissioned by the Galaxy Tigers. It gets supplementary light armor plates bearing the GT markings.
+Those new plates grants %s/%s/%s/%s more armor depending of hull size.",GT Commission,graphics/factions/gtflagmini.png
+Deactivated weapons,galaxytigers_deactivated_weapons,,,Galaxy Tigers,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_Deactivated_Weapons,Deactivates every weapons of a ship by giving them 0 range.,Deactivates every weapons of a ship by giving them 0 range.,
+Automated Ship,galaxytigers_automated,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.GT_Automated,"This ship is fully automated, and does not require - and can not take on - any human crew.",Does not require and can not support crew.,graphics/hullmods/automated.png

@@ -1,0 +1,246 @@
+[V 1.4.4 : 06/05/2020]
+- Fixed a crash that would occur when the Combat Chatter mod was picking a ship deployed by the Reinforcer
+
+[V 1.4.3 : 06/03/2020]
+- Made the mod much lighter in terms of download size
+- Fixed a crash that would occur if you docked to a GT market when hostile to them
+
+[V 1.4.2 : 05/31/2020]
+- Added a new track for GT
+- Fixed a CTD that would happen if seeing a fleet with a specific hullmod still in the works
+
+[V 1.4.1 : 05/28/2020]
+- Taurus' DP cost really buffed from 15 to 12 this time
+
+[V 1.4.0 : 05/27/2020]
+- Fixed the Toucan Torpedo Rack. It now has a correct credit cost, OP cost, ammo and a description
+- Slight changes in the Bristol H5S5 and Buster B10 wing description
+- Added a new mission to introduce a bit more lore about the GT
+- Fixed the default variants of the Mining Bandit and the Bandit (GT) that had bomb bays
+- Codex entries of the Heron (GT) and the Wrecked Baguette hidden
+- Changed the description of the Onslaught (A)
+- Puma's DP cost buffed from 32 to 29
+- Taurus' DP cost buffed from 15 to 12
+- Shield Maiden's DP cost from 31 to 26, shield's flux/damage buffed from 1 to 0.9
+- Barn's DP cost nerfed from 10 to 12
+- Arrowtip's OP cost nerfed from 15 to 16
+- Raised the burn level of the Atlas Fortress and the Reinforcer from 6 to 7
+- New built-in hullmods given to GT's automated ships, depending of if they are carriers or not :
+/!\ Many thanks to Nia Tahl and Nicke535 for the base code, taken from the Drone Carrier hullmod of Sylphon RnD!
+	* For the carriers, Automated Carrier :
+		-> Can't mount manned fighters
+		-> Every mounted fighter needs 20% less time to refit
+		-> They also get a 10% max speed, acceleration and deceleration boost
+		-> Finally, a 25% turning rate and turning acceleration boost
+	* For non carriers, Automated Machinery (globally the same as above, just less impressive boosts) ;
+		-> Can't mount manned fighters
+		-> Mounted fighters needs 10% less time to refit
+		-> 8% max speed, acceleration and deceleration boost
+		-> 15% turning rate and turnin acceleration boost
+- Tigris star system tweaks :
+	* Removed all the waystations
+	* Gassus' low gravity is now high gravity
+	* Gassus' high command is now a patrol HQ
+	* Gassus' star fortress is now a battlestation
+	* Tergess' common ore deposits changed to sparse ore deposits
+	* Assekia's fuel production removed
+	* Enkluss' nanoforge in the orbital works removed
+	* Enkluss' star fortress is now a battlestation
+	* Kelmine's star fortress is now an orbital station
+
+[V 1.3.7 : 05/21/2020]
+- Fixed a strange behavior with Tiger's MIRVs that would use their system over enemy hulks
+
+[V 1.3.6 : 05/20/2020]
+- Finally, the Galaxy Tigers design type has GT's color
+- Toucan Torpedo (Single), Asteroid PD System and Patience Minelayer now have descriptions in the codex 
+- The Toucan Torpedo (Single) can now be mounted on ships
+- The Asteroid PD System can now be mounted on ships
+- New weapon : Toucan Torpedo Rack. Holds 2 Toucan Torpedoes
+- Arrowtip wing balance :
+	* Asteroid PD Systems switched for Light Machine Guns
+	* The Toucan Torpedoes now fly for 5 seconds instead of 4
+
+[V 1.3.5 : 05/19/2020]
+- Removed the Heron (GT) from the GT base blueprint pack
+- Fixed the hostile GT dialogues
+- Fixed a bug that would occur when a Reinforcer would use its ship system under very specific conditions
+- New fighter : the Buster B10. Leaves lines of EMP mines behind it, sometimes directly hitting hulls if mines are dropped while the fighter flies over one.
+- Arrowtip wing balance :
+	* Harpoons and Sabot missiles switched for 2 Toucan Torpedoes (slow but high energy payload)
+	* OP cost buffed from 20 to 15
+	* Hull integrity nerfed from 550 to 300
+
+[V 1.3.4 : 05/14/2020]
+- Added the hullmods incompatibility to the Drone Support hullmods
+- Replaced the Herons (GT) by Pumas in the Nex starting fleets
+
+[V 1.3.3 : 05/13/2020]
+- The two ships deployed by the Reinforcer will now escort it by default
+- Fixed a bug coming from the Drone Support hullmods bugfix of version 1.3.2
+- Former Drone Support hullmods names changed :
+	* Defender Escort is now known as - Drone Support : Defender Escort
+	* Sentry Support is now known as - Drone Support : Pressure Sentry
+	* Warden Support is now known as - Drone Support : Polyvalent Warden
+- Small overhaul of the Drone Support hullmods :
+	* Replacement rate of the generated wings varies depending of hull size (with 100% efficiency)
+		-> 10 seconds for capital ships
+		-> 20 seconds for cruisers
+		-> 40 seconds for destroyers
+	* If the ship is a frigate, it will be able to spawn 1 drone only.
+	* Sentry and Warden wings mobility buffed
+	* Weapons of the Warden wing from the Drone Support : Polyvalent Warden hullmod changed :
+		-> Heavy Mauler switched for an Arbalest Autocannon
+		-> Micro Bolter switched for a Light Assault Gun
+	* Hullmod costs reviewed to take in account the new replacement rates
+- New drone hullmods :
+	* Drone Support : Sentry Escort
+		-> Armed with anti-fighter missiles, a Vulcan Cannon and an Annihilator Rocket Pod
+	* Drone Support : Strike Defender
+		-> Armed with 2 IR Pulse Lasers and 2 Railguns
+	* Drone Support : Brawling Picket
+		-> Armed with a Light Mortar, a Light Dual Autocannon and a Wallbrick Gun
+	* Drone Support : Picket Escort
+		-> Armed with PD weapons
+
+[V 1.3.2 : 05/05/2020]
+- Finished the sprite rework of the Ethrom
+- Some ships have now new blinkers. It's useless, but it's pretty
+- Fixed the default variant of the Kandorig by giving it actual Annihilators and not the ones for fighters
+- Fixed the Tiger's MIRV missiles that would sometimes teleport in a ship if it is too big
+- If a Tiger's MIRV missile fails to split after teleporting, it will vanish out of existence while leaving EMP arcs if it goes too far away of its target
+- Added a description to the Truck
+- Fixed a bug that would occur when trying to mount one of the Drone Support hullmod. If your ship has empty bays, you will now be required to fill them first before mounting the hullmod
+- Tweaked the credit values of almost every ships
+- Tweaked the credit values of every fighters
+- Tweaked the credit values of every weapons
+- Made the Wrecked Baguette and the Heron (GT) unavailable. You can still console them into yout fleet in campaign mode
+- Nerfed the Arrowtip's Harpoons by giving them less range
+- Buffed the Shrapnolt Gun's spread from 45 degrees to 35
+- Buffed the Sanctum's spinning shields from 7500 flux to 9000 and from 0.8 efficiency to 0.6
+- Atlas Fortress buffs :
+	* More overall speed and agility
+	* Civilian-Grade hullmod removal
+- Nerfed the Mining Bandit's built-in Mining Blaster arc to let it shoot only straight forward
+- New ship : The Puma-class artillery carrier. Has a system to switch from carrier to artillery mode
+
+[V 1.3.1 : 04/18/2020]
+- The performance issue that occurred when using V1.3.0 of GT should be fixed
+- The Wallbrick Gun and Cannon should be used more correctly by the autofit
+- Added a faction leader for GT
+- Slight sprite rework on the Ethrom (not completely done)
+
+[V 1.3.0 : 04/15/2020]
+- Added a settings file to let players disable abandoned GT stations generation on new saves
+- Added a showcase mission to let you test GT ships without having to get them in campaign mode
+- Hopefully fixed a very rare bug that would make player produced Kandorigs having no modules and thus causing a crash
+- Added custom themes for the faction as well as a combat theme playing when you're hostile to them
+- Changed and added starting fleets for Nexerelin
+- Less abandoned GT stations should spawn on new saves
+- Tweaked the probabilities of diplomatic events between GT and other factions for Nexerelin
+- Added support for the special task forces of Nexerelin
+- Tweaked down the number of ships in abandoned GT stations
+- Tweaked down the number of ships a typical GT fleet would have, so the invasion fleets in Nex shouldn't be as OP as before
+- Changed the name of the Atlas (H) and its Battlefreighter classfication to Onslaught (A) Emergency Battleship, otherwise it remains the same ship as before
+- Changed the name of the Smolslaught to Tareb. It remains the same as before and the description refers to the old name
+- Reduced even more the Wrecked Baguette spawn rate for it to be a rare spawn (normally)
+- Raised the OP cost of the automated escort hullmods. New values are :
+	-> 6/12/18/24 for the Defender Escort
+	-> 7/14/21/28 for the Warden Escort
+	-> 9/18/27/36 for the Sentry Escort
+- Nerfed the Defender Escort deploying range from 1500 to 800
+- Buffed Atlas Fortress DP from 35 to 30
+- Buffed the Defender (GT) DP from 3 to 2
+- Nerfed the Bastillon (GT) DP from 8 to 10 and buffed its hull from 4000 to 4250
+- Nerfed the Cerbherd DP from 5 to 7
+- Buffed a special ship to give it more range
+- Nerfed the Spider Nest drone system. It will now only spawn 5 PD drones instead of 12 and has a reserve of 5 other drones
+- Nerfed the Spider Drone Swarm (fighter wing) by giving it high delay Ion Cannons instead of standard ones, OP cost buffed from 15 to 12
+- Increased the fuel consumption of the Kandorig of 1 unit per light year
+- Toned down the smoke trails of the Bristols
+- Removed the hammer from the Ethrom since it was particularly useless, changed the ship system to burn drive and made the right module tankier
+- Nerfed planet conditions of planets in the Tigris star system to reduce the overall market share GT has
+- Added a new structure to Tergess : the Drone Platform (spawns drone patrols for GT)
+- New weapons : The Tiger's MIRV family. Missile launchers of various sizes launching special missiles that can "teleport" once
+- New weapon : The Deactite Waver. Sends 3 EMP arcs forward in multiple directions dealing EMP damage having 50% chance to arc to other weapons and engines.
+- New weapon : The Wallbrick Gun. Fires 3 projectiles powerful enough to knock back any hull they hit.
+- New weapon : The Wallbrick Cannon. Similar to the Wallbrick Gun, just fires 4 projectiles instead of 3 that have stronger knockback potential
+- Weapon modification : The Lighter Needler is now known as the Micro Bolter and has a new sprite. Otherwise it remains the same as before.
+- New fighter wing : The Watchtower Escort Squadron. GT's equivalent of the Talon wing
+- New ship : The Reinforcer-class Drone Conveyer. Houses 2 drones that it can deploy by using its system.
+- New ship : The Truck-class Freighter Tank. A simple Buffalo hybrid with the right side being a tank.
+- Returning ships : Anvil Industries' drones! Some of them were manned drones but that got changed. Here's the list of the ones rising from the dead (some got their names changed) :
+	-> Arrowtip drone fighter
+	-> Hawkeye utility drone
+	-> Shank combat drone
+	-> Taurus combat drone
+	-> Trebuchet combat drone
+	-> Shield Maiden drone cruiser
+	-> Barn freighter drone
+	-> Sanctum heavy drone carrier
+
+[V 1.2.1 : 02/01/2020]
+- Slight rework on generation of abandoned habitats, mining stations and research station to avoid accidental overshadowing of other mods and vanilla generated stuff
+- Rana's DP buffed from 9 to 8
+- Little tweak on the Rana's variants
+
+[V 1.2.0 : 01/28/2020]
+- Tweak for Tergess' industries : gets a new one being an AI Repurposing Facility trading the Refining. You can either start a new game to see it or if you have Console Commands, go to Tergess and enter the following commands : 
+	removeindustry refining
+	addindustry galaxytigers_ai_repurpose_facility
+- Fixed a bug for the Ethrom that would happen when trying to add a wing to one of its modules
+- Reduced the Wrecked Baguette spawn rate, it was spawning too massively
+- New weapon : Shrapnolt Gun, mainly a large ballistic point defense shotgun
+- New weapon : Meteor Strike Cannon, a large ballistic suppression "machinegun" dealing energy damage
+- New ships : The First Generation GT drones. They're like the actual ones, but slightly different. Will you find one?
+- New ship : The Rana, Midline GT exclusive ship. I'm pretty sure it can become fairly powerful in goods hands.
+A bit of nerf for the Wrecked Baguette :
+- Turn rate of the Wrecked Baguette nerfed from 25 to 15
+- Flux capacity downed from 15000 to 13000
+- Flux vents slapped from 600 to 570
+Slap of nerf in the Smolslaught's face (including the pirate one) :
+- Normal XPC now fire every 0.8 second instead of 0.5
+- Armor reduced to 325
+- Hull integrity reduced to 3000
+- Every medium mounts changed to small mounts (excepted the medium ballistic)
+- DP buffed from 12 to 9
+
+[V 1.1.2 : 01/11/2020]
+Hotfix to take care of the overspawning of certain ships and spawn weighings
+- New ship : The Ethrom, some kind of mother droneship
+
+[V 1.1.1 : 01/06/2020]
+Hotfix version fixing some stuff related to Nexerelin :
+- A crash occuring when trying to generate random core worlds
+- The Tigris and Croissann systems being generated with random core worlds enabled
+- Some tweaks for industries generated in GT markets still with random core worlds enabled
+
+[V 1.1.0 : 12/23/2019]
+- Fixed a bug with the Defender Drone Escort hullmod that would occur when trying to mount it when all of your wings are empty or when the game tried to generate a ship using it before placing the wings
+- Added the Kandorig, a carrier rig and survey ship
+- Added the Smolslaught. It's self explanatory
+- Added the Cerbherd
+- Adjusted the Spider Drone wing to 2 fighters per wing and added 50 more hullpoints to them
+- Balanced the Bristol wing weapons to a lighter needler shooting 5 projectiles every 3 seconds and a annihilator shooting 3 rockets
+- Raised the Brattice (GT) wing cost from 2 to 3 OP
+- Reskinned the Bristol wing and added a ship system retracting its wings and making it more agile when engaging in combat or when they are 150 su away from their mothership
+- Speaking of reskins, reworked every other GT skins that looked insanely ugly (excepted for the Conquest (GT), it's in an acceptable state but I'll eventually redo it), they should look a bit better now
+- Added the lighter needler weapon : Shoots bursts of 5 projectiles every 3 seconds. Costs 5 OP to mount.
+- 2 new hullmods : Sentry Drone Support and Warden Drone Support
+- Made the drone support hullmods incompatible with each other and converted hangar
+- Removed the cryosanctum from Tergess in the Tigris star system
+- Made some aesthetic changes to the Tigris star system and added an inactive gate in it. You'll need to begin a new save to see those
+- Reworked many variants to give them better weapon groups and such
+- Adjusted some stuff with Nexerelin and added traits to the faction
+- Added compatibility with the following mods :
+	- Commissioned crews
+	- Version checker
+- Added faction relationships with the following mods :
+	- Anvil Industries
+	- Blackrock Drive Yards
+	- ApproLight
+	- Dassault-Mikoyan Engineering
+	- Diable Avionics
+
+[V 1.0.0]
+- First release

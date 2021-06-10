@@ -1,0 +1,135 @@
+{
+  "bounds": [
+    35,
+    77,
+    35,
+    33,
+    23,
+    26,
+    23,
+    6,
+    70,
+    3,
+    68,
+    -62,
+    -64,
+    -53,
+    -61,
+    58,
+    -14,
+    64,
+    -7,
+    77
+  ],
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "galaxytigers_deactivated_weapons",
+    "always_detaches"
+  ],
+  "center": [
+    82,
+    73
+  ],
+  "collisionRadius": 111,
+  "engineSlots": [],
+  "height": 164,
+  "hullId": "galaxytigers_berserker_reinforcer",
+  "hullName": "Berserker (GT)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 111,
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_berserker.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 001",
+      "locations": [
+        39,
+        71
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 002",
+      "locations": [
+        39,
+        57
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 003",
+      "locations": [
+        49,
+        40
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 005",
+      "locations": [
+        67,
+        -3
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 006",
+      "locations": [
+        74,
+        -19
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 007",
+      "locations": [
+        70,
+        -37
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 008",
+      "locations": [
+        72,
+        -53
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 150
+}

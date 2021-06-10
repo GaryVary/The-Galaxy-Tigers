@@ -1,0 +1,123 @@
+{
+  "hullName": "Shank",
+  "hullId": "galaxytigers_shank",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_shank.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 130,
+  "width": 110,
+  "center": [55, 60.5],
+  "collisionRadius": 64.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "galaxytigers_automated_machinery"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-4.5, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-4.5, 19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-29.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [37.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21.5, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21.5, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42.5, -6.5],
+      "length": 35,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, 6.5],
+      "length": 35,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -15.5],
+      "length": 25,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 15.5],
+      "length": 25,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -42.5, -11,
+    -30, -22,
+    -13.5, -25,
+    22.5, -27,
+    28.5, -12,
+    47.5, -8,
+    47.5, 8,
+    28.5, 12,
+    22.5, 27,
+    -13.5, 25,
+    -30, 22,
+    -42.5, 11
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 7,
+  "fluxVents": 14,
+  "goalVariant": true,
+  "hullId": "galaxytigers_berserker_firstgen",
+  "hullMods": [
+    "fluxbreakers"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_berserker_firstgen_Strike",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightag",
+        "WS 002": "lightag",
+        "WS 006": "lightag",
+        "WS 008": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "hveldriver"
+      }
+    }
+  ],
+  "wings": []
+}

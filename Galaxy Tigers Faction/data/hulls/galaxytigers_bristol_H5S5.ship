@@ -1,0 +1,122 @@
+{
+  "bounds": [
+    -20.5,
+    -9.5,
+    -15,
+    -9.5,
+    -12.5,
+    -4,
+    -5.5,
+    -4,
+    -5.5,
+    -12,
+    6.5,
+    -12,
+    6.5,
+    -5,
+    15.5,
+    -7,
+    15.5,
+    7,
+    6.5,
+    5,
+    6.5,
+    12,
+    -5.5,
+    12,
+    -5.5,
+    4,
+    -12.5,
+    4,
+    -15,
+    9.5,
+    -20.5,
+    9.5
+  ],
+  "builtInWeapons": {
+    "LEFTWING": "galaxytigers_bristol_leftwing",
+    "RIGHTWING": "galaxytigers_bristol_rightwing"
+  },
+  "center": [
+    27,
+    24.5
+  ],
+  "collisionRadius": 36.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -19.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "GT_STEAMBIRDS_BRISTOL",
+      "width": 10
+    }
+  ],
+  "height": 44,
+  "hullId": "galaxytigers_bristol_H5S5",
+  "hullName": "Bristol H5S5",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 35.5,
+  "spriteName": "graphics/ships/fighters/galaxytigers_bristol_H5S5.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 103,
+      "id": "WS0001",
+      "locations": [
+        14,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        12,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LEFTWING",
+      "locations": [
+        1,
+        8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "RIGHTWING",
+      "locations": [
+        1,
+        -7.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 54
+}

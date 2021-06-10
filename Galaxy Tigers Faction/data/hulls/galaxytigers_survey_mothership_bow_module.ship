@@ -1,0 +1,47 @@
+{
+  "hullName": "Bow Shield Module",
+  "hullId": "galaxytigers_survey_mothership_bow_module",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelict/derelict_mothership_bow_module.png",
+  "style": "LOW_TECH",
+  "height": 56,
+  "width": 84,
+  "center": [46, 27],
+  "collisionRadius": 203.5,
+  "shieldCenter": [-67, -51],
+  "shieldRadius": 248,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [3, 27]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 10,
+      "locations": [4, -14]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -3, 44,
+    24, 29,
+    24, -7,
+    4, -34,
+    -15, -34,
+    -15, 31
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 4,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "galaxytigers_defender_firstgen",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_defender_firstgen_Assault",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualac",
+        "WS 004": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "taclaser",
+        "WS 003": "taclaser"
+      }
+    }
+  ],
+  "wings": []
+}

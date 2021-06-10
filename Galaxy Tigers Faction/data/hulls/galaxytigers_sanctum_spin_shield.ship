@@ -1,0 +1,29 @@
+{
+  "hullName": "Sanctum shield module",
+  "hullId": "galaxytigers_sanctum_spin_shield",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_sanctum_shield_module.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 18,
+  "width": 23,
+  "center": [11.5, 9],
+  "collisionRadius": 38,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 343.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -9, -7.5,
+    -4, -11.5,
+    4, -11.5,
+    9, -4.5,
+    9, 4.5,
+    4, 11.5,
+    -4, 11.5,
+    -9, 7.5
+  ]
+}

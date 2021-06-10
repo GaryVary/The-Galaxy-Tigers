@@ -1,0 +1,108 @@
+{
+  "hullName": "Trebuchet",
+  "hullId": "galaxytigers_trebuchet",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/gtderelict/galaxytigers_trebuchet.png",
+  "style": "GALAXYTIGERSHULL",
+  "height": 176,
+  "width": 116,
+  "center": [58, 88],
+  "collisionRadius": 115,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 112,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "targetingunit",
+    "galaxytigers_automated_machinery"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [63, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [47, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [47, -30]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 158,
+      "angle": 0,
+      "locations": [14, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-55, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75.5, -0],
+      "length": 75,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38.5, 36],
+      "length": 65,
+      "width": 21,
+      "angle": 177,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38.5, -36],
+      "length": 65,
+      "width": 21,
+      "angle": -177,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -76, -12,
+    -39, -46,
+    -22, -51,
+    7, -40,
+    56, -38,
+    56, -17,
+    74, -15,
+    74, 15,
+    56, 17,
+    56, 38,
+    7, 40,
+    -22, 51,
+    -39, 46,
+    -76, 12
+  ]
+}

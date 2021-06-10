@@ -1,0 +1,31 @@
+{
+  "variantId": "galaxytigers_survey_mothership_pod_m_right_Standard",
+  "hullId": "galaxytigers_survey_mothership_pod_m_right",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 019": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 020": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

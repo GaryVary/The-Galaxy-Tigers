@@ -1,0 +1,54 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 23,
+  "fluxVents": 24,
+  "goalVariant": true,
+  "hullId": "galaxytigers_aurora",
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "galaxytigers_aurora_Assault",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lrpdlaser",
+        "WS 002": "ionpulser",
+        "WS 004": "ioncannon",
+        "WS 011": "heatseeker",
+        "WS 013": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "ioncannon",
+        "WS 005": "ioncannon",
+        "WS 006": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "heavyneedler",
+        "WS 008": "heavyneedler",
+        "WS 010": "sabot",
+        "WS 012": "sabot"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "galaxytigers_warden_wing_Polyvalent",
+  "hullId": "galaxytigers_warden_wing",
+  "displayName": "Polyvalent Drone",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

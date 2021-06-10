@@ -1,0 +1,59 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+#Deco weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bristol left wing,galaxytigers_bristol_leftwing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+Bristol right wing,galaxytigers_bristol_rightwing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+Reinforcer's Scaffolding,galaxytigers_reinforcer_scaffold,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+Sanctum hide,galaxytigers_sanctum_hide,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Blinkers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blinker Orange Basic,galaxytigers_blinker_orange_basic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+Blinker Orange,galaxytigers_blinker_orange1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+Blinker Red (GT),galaxytigers_blinker_red1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+Blinker Green (GT),galaxytigers_blinker_green1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Small builtins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Annihilator Pod,galaxytigers_annihilator_fighter,,,,1500,,200,,5,30,4,3,,,HIGH_EXPLOSIVE,0,,0,0.1,3,,0,30,15,10,,400,50,4,50,SYSTEM,"no_drop, no_sell, HIDE_IN_CODEX",,,,Anti Armor,Fast,None,,,,,,,TRUE,11.1
+Patience Minelayer,galaxytigers_patience_minelayer,,,,1500,,5,150,30,0,0,30,,,FRAGMENTATION,0,,0,8,10,0.2,0,0,0,0,,300,100,7,100,"STRIKE, SYSTEM, DO_NOT_AIM, SHOW_IN_CODEX","no_drop, no_sell",,Galaxy Tigers,,EMP,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra EMP damage equal to the original hit.",100%,,,TRUE,3.4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Large builtins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Overclocked Tiger's Claw MIRV,galaxytigers_claw_mirv_builtin,,,,2500,,500,,25,10,0,40,,,HIGH_EXPLOSIVE,0,,0,16,8,0.5,0,0,0,0,,1000,500,15,25,"DO_NOT_AIM, HEATSEEKER, SYSTEM","no_drop, no_sell",,Galaxy Tigers,,Pressure,Very fast,Good,,,Each missile will use its hyperdrive system to instantly go from an enemy ships side to the other. It is however %s.,a single use system,,,TRUE,16
+X-Ray Pulse Cannon,galaxytigers_xpc,,,,800,,300,,0,0,,10,1,,ENERGY,240,,0,0.8,1,,0,5,1,2,,1200,,,,SYSTEM,"no_drop, no_sell, HIDE_IN_CODEX",,,,General,,,,,,,,,,40
+Overclocked X-Ray Pulse Cannon,galaxytigers_overclocked_xpc,,,,800,,300,,0,0,,9,1,,ENERGY,240,,0,0.85,3,0.08,0,5,1,2,,1200,,,,SYSTEM,"no_drop, no_sell, HIDE_IN_CODEX",,,,General,,,,,,,,,,40
+Overcharged Thermal Pulse Cannon,galaxytigers_overcharged_tpc,,,,1000,,4000,,0,0,,1,0.05,,ENERGY,1000,,0,0,1,,0,10,2,5,,1000,,,,SYSTEM,HIDE_IN_CODEX,TPC_only,,,,,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Small weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wallbrick Gun,galaxytigers_wallbrick_gun,0,,450,400,,185,,5,10,6,,,,FRAGMENTATION,40,,0,1.1,3,0.2,0,10,1,2,,1100,,,,"PD, PD_ALSO, ANTI_FTR","kinetic6, galaxytigers_bp, galaxytigers",,Galaxy Tigers,,General,,,,,Hits on hull or armor will %s. Effects vary depending of the targets maneuverability.,knock back the target,,,,10
+Micro Bolter,galaxytigers_lighter_needler,1,,500,700,,30,,1,20,5,,,,KINETIC,24,,0,2.8,5,0.05,0,10,0.66,5,,1200,,,10,,"kinetic9, LR, base_bp",,,,Anti Shield,,,,,,,,,,3.65
+Asteroid PD System,galaxytigers_asteroid_pd,0,,150,400,,30,,1,60,4,,,,ENERGY,18,,0,0.8,5,0.08,0,10,1,15,,1100,,,10,"ANTI_FTR, PD","pd6, kinetic5, energy5, galaxytigers_bp, galaxytigers",,Galaxy Tigers,,Point Defense,,,,,,,,,,1
+Toucan Torpedo (Single),galaxytigers_toucan_single,0,,200,1100,,1300,,30,10,1,1,,,ENERGY,0,,0,1,1,,0,0,0,,,250,100,5,400,STRIKE,"strike6, rocket2, galaxytigers, galaxytigers_bp",,Galaxy Tigers,,Torpedo,Slow,None,,,,,,,TRUE,11.6125
+Toucan Torpedo Rack,galaxytigers_toucan,0,,400,1100,,1300,,30,10,3,2,,,ENERGY,0,,0,1,1,,0,0,0,,,250,100,5,400,STRIKE,"strike6, rocket2, galaxytigers, galaxytigers_bp",,Galaxy Tigers,,Torpedo,Slow,None,,,,,,,TRUE,11.6125
+Tiger's Paw MIRV Launcher,galaxytigers_paw_mirv,1,,650,2000,,500,,25,10,5,5,,,HIGH_EXPLOSIVE,0,,0,5,1,0,0,0,0,0,,1000,500,15,25,"DO_NOT_AIM, HEATSEEKER","missile8, strike3, galaxytigers, galaxytigers_prime_bp",,Galaxy Tigers,,Pressure,Very fast,Good,,,Each missile will use its hyperdrive system to instantly go from an enemy ships side to the other. It is however %s.,a single use system,,,TRUE,12
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49
+#Medium weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deactite Waver,galaxytigers_deactite,2,,1700,900,,25,800,0,5,10,,,,ENERGY,30,,0,3,1,,0,0,0,0,,800,,,,,"energy13, kinetic20, galaxytigers_bp, galaxytigers",,Galaxy Tigers,,Support,,,,Special,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",50%,,,,50
+Wallbrick Cannon,galaxytigers_wallbrick_cannon,1,,1350,450,,350,,5,10,12,,,,FRAGMENTATION,70,,0,1.2,4,0.2,0,10,1,2,,1100,,,,"PD, PD_ALSO, ANTI_FTR","energy12, pd10, kinetic11, galaxytigers_bp, galaxytigers",,Galaxy Tigers,,General,,,,,Hits on hull or armor will %s. Effects vary depending of the targets maneuverability.,knock back the target,,,,51
+Tiger's Fang MIRV Launcher,galaxytigers_fang_mirv,1,,1500,2000,,500,,25,10,11,10,,,HIGH_EXPLOSIVE,0,,0,8,2,1,0,0,0,0,,1000,500,15,25,"DO_NOT_AIM, HEATSEEKER","missile13, strike9, galaxytigers, galaxytigers_prime_bp",,Galaxy Tigers,,Pressure,Very fast,Good,,,Each missile will use its hyperdrive system to instantly go from an enemy ships side to the other. It is however %s.,a single use system,,,TRUE,12
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Large weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shrapnolt Gun,galaxytigers_shrapnolt,0,,3500,700,,250,,1,40,16,,,,FRAGMENTATION,45,,0,1,1,0,5,35,35,0,,1000,,,,"ANTI_FTR, PD","pd15, he14, energy13, lowtech_bp, midline_bp, galaxytigers_bp, galaxytigers",,Galaxy Tigers,,Point Defense,,,,,,,,,,7
+Meteor Strike Cannon,galaxytigers_meteor_strike,2,,4500,900,,150,,1,15,23,,,,ENERGY,165,,,0.2,1,,0,15,1,5,,900,,,,,"energy18, he18, kinetic18, galaxytigers_bp, galaxytigers",,Galaxy Tigers,,Suppression,,,,,,,,,,53
+Tiger's Claw MIRV Launcher,galaxytigers_claw_mirv,1,,4000,2000,,500,,25,10,21,20,,,HIGH_EXPLOSIVE,0,,0,11,4,1,0,0,0,0,,1000,500,15,25,"DO_NOT_AIM, HEATSEEKER","missile18, strike15, galaxytigers, galaxytigers_prime_bp",,Galaxy Tigers,,Pressure,Very fast,Good,,,Each missile will use its hyperdrive system to instantly go from an enemy ships side to the other. It is however %s.,a single use system,,,TRUE,16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,69
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

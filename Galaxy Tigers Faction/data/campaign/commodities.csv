@@ -1,0 +1,10 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult,plugin,desc
+Reprogrammed AI,galaxytigers_reprogrammed_ai,rare_metals,200,2000,3,5,,,1000,1,graphics/icons/cargo/galaxytigers_simple_ai.png,ui_chip_pickup,ui_gamma_core_drop,1.1,3,50,1,,
+,,,,,,,,,,,,,,,,,,,
+,, , ,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,, ,,,,,,,,,,,,,,,,

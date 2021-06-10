@@ -1,0 +1,51 @@
+{
+  "bounds": [
+    5.5,
+    -4,
+    5.5,
+    145,
+    13.5,
+    145,
+    13.5,
+    183,
+    -57.5,
+    192,
+    -57.5,
+    184,
+    -18.5,
+    145,
+    -5.5,
+    146,
+    -5.5,
+    -4,
+    -3.5,
+    -7,
+    0,
+    -8,
+    3.5,
+    -7
+  ],
+  "builtInMods": [
+    "always_detaches"
+  ],
+  "center": [
+    200,
+    70.5
+  ],
+  "collisionRadius": 207,
+  "engineSlots": [],
+  "height": 142,
+  "hullId": "galaxytigers_ethrom_hammer",
+  "hullName": "Hammer",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 203.5,
+  "spriteName": "graphics/ships/ethrom/galaxytigers_ehtrom_hammer.png",
+  "style": "GALAXYTIGERSHULL",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 420
+}
