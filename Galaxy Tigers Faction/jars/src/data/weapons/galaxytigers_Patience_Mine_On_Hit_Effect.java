@@ -1,6 +1,7 @@
 package data.weapons;
 
 import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
@@ -8,7 +9,7 @@ import java.awt.*;
 public class galaxytigers_Patience_Mine_On_Hit_Effect implements OnHitEffectPlugin {
 
     @Override
-    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, CombatEngineAPI engine) {
+    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         if (target instanceof ShipAPI) {
 
             float emp = projectile.getEmpAmount();
